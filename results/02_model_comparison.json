@@ -1,0 +1,157 @@
+{
+  "selected_count_baseline": "markov",
+  "primary_summary": [
+    {
+      "condition": "count_baseline_markov",
+      "seeds": 1,
+      "recall_at_1": 0.15235456824302673,
+      "recall_at_3": 0.408587247133255,
+      "mean_average_precision": 0.3565329099955139
+    },
+    {
+      "condition": "entity_gru",
+      "seeds": 3,
+      "recall_at_1": 0.21514311929543814,
+      "recall_at_3": 0.4159741501013438,
+      "mean_average_precision": 0.38517358423868125
+    },
+    {
+      "condition": "no_edge_control",
+      "seeds": 3,
+      "recall_at_1": 0.22206832965215048,
+      "recall_at_3": 0.44552170236905414,
+      "mean_average_precision": 0.40069784785851265
+    },
+    {
+      "condition": "shuffled_edge_control",
+      "seeds": 3,
+      "recall_at_1": 0.24099723001321158,
+      "recall_at_3": 0.45891043543815613,
+      "mean_average_precision": 0.4187112723123803
+    },
+    {
+      "condition": "temporal_rgcn",
+      "seeds": 3,
+      "recall_at_1": 0.2229916900396347,
+      "recall_at_3": 0.4653739631175995,
+      "mean_average_precision": 0.4085044982205647
+    }
+  ],
+  "singleton_summary": [
+    {
+      "condition": "count_baseline_markov",
+      "seeds": 1,
+      "recall_at_1": 0.1542857140302658,
+      "recall_at_3": 0.4171428680419922,
+      "mean_average_precision": 0.35802061430632864
+    },
+    {
+      "condition": "entity_gru",
+      "seeds": 3,
+      "recall_at_1": 0.21904762089252472,
+      "recall_at_3": 0.42095237970352173,
+      "mean_average_precision": 0.38719398855113135
+    },
+    {
+      "condition": "no_edge_control",
+      "seeds": 3,
+      "recall_at_1": 0.22761904696623483,
+      "recall_at_3": 0.4514285723368327,
+      "mean_average_precision": 0.4039257409257409
+    },
+    {
+      "condition": "shuffled_edge_control",
+      "seeds": 3,
+      "recall_at_1": 0.24571428696314493,
+      "recall_at_3": 0.4638095200061798,
+      "mean_average_precision": 0.4208394832680547
+    },
+    {
+      "condition": "temporal_rgcn",
+      "seeds": 3,
+      "recall_at_1": 0.22666666408379874,
+      "recall_at_3": 0.4704761902491252,
+      "mean_average_precision": 0.41031554952983534
+    }
+  ],
+  "paired_gnn_minus_gru": [
+    {
+      "seed": 7,
+      "recall_at_3": 0.03047090768814087,
+      "mean_average_precision": 0.024500995311244556
+    },
+    {
+      "seed": 21,
+      "recall_at_3": 0.0886426568031311,
+      "mean_average_precision": 0.04219758388733452
+    },
+    {
+      "seed": 73,
+      "recall_at_3": 0.029085874557495117,
+      "mean_average_precision": 0.003294162747071283
+    }
+  ],
+  "graph_minus_entity": {
+    "recall_at_3": 0.04939981301625568,
+    "mean_average_precision": 0.023330913981883472
+  },
+  "graph_minus_no_edge": {
+    "recall_at_3": 0.019852260748545347,
+    "mean_average_precision": 0.007806650362052081
+  },
+  "graph_minus_shuffled": {
+    "recall_at_3": 0.006463527679443359,
+    "mean_average_precision": -0.010206774091815585
+  },
+  "bootstrap_intervals": [
+    {
+      "comparison": "temporal_rgcn - entity_gru",
+      "metric": "recall_at_3",
+      "point_estimate": 0.04939981301625568,
+      "ci_lower": -0.007862013578414916,
+      "ci_upper": 0.115032216347754,
+      "repetitions": 2000
+    },
+    {
+      "comparison": "temporal_rgcn - entity_gru",
+      "metric": "mean_average_precision",
+      "point_estimate": 0.023330913981883472,
+      "ci_lower": -0.01345868066418916,
+      "ci_upper": 0.06211501732468605,
+      "repetitions": 2000
+    },
+    {
+      "comparison": "temporal_rgcn - no_edge_control",
+      "metric": "recall_at_3",
+      "point_estimate": 0.019852260748545347,
+      "ci_lower": -0.0255140695720911,
+      "ci_upper": 0.06866058483719824,
+      "repetitions": 2000
+    },
+    {
+      "comparison": "temporal_rgcn - no_edge_control",
+      "metric": "mean_average_precision",
+      "point_estimate": 0.007806650362052081,
+      "ci_lower": -0.021304677799344064,
+      "ci_upper": 0.047613853681832546,
+      "repetitions": 2000
+    },
+    {
+      "comparison": "temporal_rgcn - shuffled_edge_control",
+      "metric": "recall_at_3",
+      "point_estimate": 0.006463527679443359,
+      "ci_lower": -0.04762279866263271,
+      "ci_upper": 0.05324708968400955,
+      "repetitions": 2000
+    },
+    {
+      "comparison": "temporal_rgcn - shuffled_edge_control",
+      "metric": "mean_average_precision",
+      "point_estimate": -0.010206774091815585,
+      "ci_lower": -0.03679928686469793,
+      "ci_upper": 0.022769032930955262,
+      "repetitions": 2000
+    }
+  ],
+  "relations_supported": false
+}

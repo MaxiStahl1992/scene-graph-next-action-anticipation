@@ -1,0 +1,57 @@
+{
+  "question": "Do scene-graph relations improve next-instrument-set anticipation beyond entity history?",
+  "target": "set of confirmed instrument onsets after eight seconds of absence",
+  "annotation_fps": 5,
+  "observation_seconds": 5,
+  "horizon_seconds": 3,
+  "confirmation_rule": {
+    "window_frames": 5,
+    "minimum_present_frames": 3
+  },
+  "multi_instrument_rule": "group confirmed onsets at the same timestamp into one target set",
+  "vocabulary_rule": {
+    "minimum_training_events": 15,
+    "minimum_training_procedures": 8
+  },
+  "eligible_targets": [
+    "Bonn Forceps",
+    "Cap. Cystotome",
+    "Cap. Forceps",
+    "Hydro. Cannula",
+    "I/A Handpiece",
+    "Lens Injector",
+    "Micromanipulator",
+    "Ph. Handpiece",
+    "Primary Knife",
+    "Rycroft Cannula",
+    "Secondary Knife",
+    "Suture Needle",
+    "Visc. Cannula"
+  ],
+  "split_sizes": {
+    "train": 25,
+    "val": 5,
+    "test": 20
+  },
+  "models": [
+    "frequency/Markov",
+    "entity GRU",
+    "no-edge control",
+    "shuffled-edge control",
+    "temporal GNN"
+  ],
+  "out_of_vocabulary_rule": "retain event sets containing at least one eligible target, preserve all observed targets for audit, and score only targets in the training-derived vocabulary",
+  "metrics": [
+    "Recall@1",
+    "Recall@3",
+    "sample-averaged mean average precision"
+  ],
+  "seeds": [
+    7,
+    21,
+    73
+  ],
+  "primary_comparison": "temporal GNN versus entity GRU",
+  "falsification_rule": "A relational-topology claim requires gains in Recall@3 and sample-averaged mean average precision over the entity GRU, no-edge control and shuffled-edge control.",
+  "sensitivity_analysis": "evaluate the fitted primary models on singleton-only test event sets"
+}

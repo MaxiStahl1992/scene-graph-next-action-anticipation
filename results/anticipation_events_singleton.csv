@@ -1,0 +1,983 @@
+split,procedure,event_frame,observation_start_frame,observation_end_frame,event_step,event_technique,all_targets,minimum_prior_absence_frames,minimum_confirmation_frames,targets,all_target_count,target_count,multi_instrument
+train,train01,374,141,281,Incision,,"[""Primary Knife""]",64,4,"[""Primary Knife""]",1,1,False
+train,train01,969,736,876,Viscodilatation,,"[""Visc. Cannula""]",166,5,"[""Visc. Cannula""]",1,1,False
+train,train01,1255,1022,1162,Capsulorhexis,,"[""Cap. Cystotome""]",215,5,"[""Cap. Cystotome""]",1,1,False
+train,train01,1512,1279,1419,Capsulorhexis,,"[""Bonn Forceps""]",174,3,"[""Bonn Forceps""]",1,1,False
+train,train01,1734,1501,1641,Capsulorhexis,,"[""Ph. Handpiece""]",297,3,"[""Ph. Handpiece""]",1,1,False
+train,train01,1822,1588,1728,Capsulorhexis,,"[""Cap. Forceps""]",42,3,"[""Cap. Forceps""]",1,1,False
+train,train01,1997,1763,1903,Capsulorhexis,,"[""Hydro. Cannula""]",128,3,"[""Hydro. Cannula""]",1,1,False
+train,train01,2744,2510,2650,Nucleus Breaking,Divide and Conquer,"[""Ph. Handpiece""]",67,5,"[""Ph. Handpiece""]",1,1,False
+train,train01,5248,5014,5154,Irrigation/Aspiration,,"[""I/A Handpiece""]",268,4,"[""I/A Handpiece""]",1,1,False
+train,train01,6864,6631,6771,Irrigation/Aspiration,,"[""Hydro. Cannula""]",83,3,"[""Hydro. Cannula""]",1,1,False
+train,train01,8335,8102,8242,Preparing Implant,,"[""Lens Injector""]",1428,4,"[""Lens Injector""]",1,1,False
+train,train01,8347,8113,8253,Preparing Implant,,"[""Bonn Forceps""]",1110,4,"[""Bonn Forceps""]",1,1,False
+train,train01,8358,8125,8265,Preparing Implant,,"[""Suture Needle""]",1154,4,"[""Suture Needle""]",1,1,False
+train,train01,9088,8855,8995,Implantation,,"[""I/A Handpiece""]",46,3,"[""I/A Handpiece""]",1,1,False
+train,train01,10092,9858,9999,Idle,,"[""Rycroft Cannula""]",44,3,"[""Rycroft Cannula""]",1,1,False
+train,train01,10279,10045,10185,OVD Aspiration,,"[""I/A Handpiece""]",109,3,"[""I/A Handpiece""]",1,1,False
+train,train01,13798,13565,13705,Wound Hydratation,,"[""Bonn Forceps""]",336,4,"[""Bonn Forceps""]",1,1,False
+train,train01,13839,13606,13746,Wound Hydratation,,"[""Hydro. Cannula""]",274,4,"[""Hydro. Cannula""]",1,1,False
+train,train02,392,158,298,Idle,,"[""Secondary Knife""]",67,3,"[""Secondary Knife""]",1,1,False
+train,train02,409,176,316,Incision,,"[""Bonn Forceps""]",70,5,"[""Bonn Forceps""]",1,1,False
+train,train02,713,479,619,Incision,,"[""Primary Knife""]",122,5,"[""Primary Knife""]",1,1,False
+train,train02,1390,1157,1297,Capsulorhexis,,"[""Visc. Cannula""]",56,3,"[""Visc. Cannula""]",1,1,False
+train,train02,2377,2143,2283,Hydrodissetion,,"[""Hydro. Cannula""]",288,5,"[""Hydro. Cannula""]",1,1,False
+train,train02,3182,2949,3089,Nucleus Breaking,Stop and Chop,"[""Hydro. Cannula""]",77,4,"[""Hydro. Cannula""]",1,1,False
+train,train02,5927,5693,5833,Irrigation/Aspiration,,"[""I/A Handpiece""]",469,3,"[""I/A Handpiece""]",1,1,False
+train,train02,9692,9459,9599,OVD Aspiration,,"[""I/A Handpiece""]",80,5,"[""I/A Handpiece""]",1,1,False
+train,train02,10142,9908,10049,OVD Aspiration,,"[""Micromanipulator""]",75,3,"[""Micromanipulator""]",1,1,False
+train,train02,10679,10446,10586,Wound Hydratation,,"[""Rycroft Cannula""]",231,4,"[""Rycroft Cannula""]",1,1,False
+train,train02,11648,11415,11555,Idle,,"[""I/A Handpiece""]",50,3,"[""I/A Handpiece""]",1,1,False
+train,train03,771,537,678,Idle,,"[""Secondary Knife""]",132,3,"[""Secondary Knife""]",1,1,False
+train,train03,1547,1314,1454,Incision,,"[""Bonn Forceps""]",214,5,"[""Bonn Forceps""]",1,1,False
+train,train03,1827,1594,1734,Incision,,"[""Primary Knife""]",49,5,"[""Primary Knife""]",1,1,False
+train,train03,1886,1652,1792,Incision,,"[""Bonn Forceps""]",46,4,"[""Bonn Forceps""]",1,1,False
+train,train03,2563,2329,2469,Capsulorhexis,,"[""Cap. Cystotome""]",80,5,"[""Cap. Cystotome""]",1,1,False
+train,train03,4950,4716,4857,Nucleus Breaking,Divide and Conquer,"[""Micromanipulator""]",60,5,"[""Micromanipulator""]",1,1,False
+train,train03,7565,7331,7471,Idle,,"[""I/A Handpiece""]",919,4,"[""I/A Handpiece""]",1,1,False
+train,train03,10862,10629,10769,Idle,,"[""Visc. Cannula""]",242,4,"[""Visc. Cannula""]",1,1,False
+train,train03,11125,10892,11032,Implantation,,"[""Lens Injector""]",71,3,"[""Lens Injector""]",1,1,False
+train,train03,12759,12526,12666,Idle,,"[""Rycroft Cannula""]",94,3,"[""Rycroft Cannula""]",1,1,False
+train,train03,12771,12537,12678,OVD Aspiration,,"[""I/A Handpiece""]",124,5,"[""I/A Handpiece""]",1,1,False
+train,train03,13786,13553,13693,OVD Aspiration,,"[""Micromanipulator""]",50,5,"[""Micromanipulator""]",1,1,False
+train,train03,16617,16384,16524,Wound Hydratation,,"[""Rycroft Cannula""]",63,5,"[""Rycroft Cannula""]",1,1,False
+train,train04,923,689,829,Incision,,"[""Visc. Cannula""]",50,3,"[""Visc. Cannula""]",1,1,False
+train,train04,2277,2043,2183,Hydrodissetion,,"[""Hydro. Cannula""]",265,5,"[""Hydro. Cannula""]",1,1,False
+train,train04,2930,2697,2837,Nucleus Breaking,Stop and Chop,"[""Hydro. Cannula""]",52,4,"[""Hydro. Cannula""]",1,1,False
+train,train04,3158,2925,3065,Nucleus Breaking,Stop and Chop,"[""Micromanipulator""]",357,3,"[""Micromanipulator""]",1,1,False
+train,train04,3462,3228,3368,Nucleus Breaking,Stop and Chop,"[""Micromanipulator""]",49,4,"[""Micromanipulator""]",1,1,False
+train,train04,8201,7967,8108,Viscodilatation,,"[""Visc. Cannula""]",65,3,"[""Visc. Cannula""]",1,1,False
+train,train04,9018,8785,8925,Idle,,"[""Visc. Cannula""]",102,3,"[""Visc. Cannula""]",1,1,False
+train,train04,9654,9421,9561,Implantation,,"[""Micromanipulator""]",452,3,"[""Micromanipulator""]",1,1,False
+train,train04,10378,10144,10285,OVD Aspiration,,"[""I/A Handpiece""]",46,5,"[""I/A Handpiece""]",1,1,False
+train,train04,10699,10465,10606,OVD Aspiration,,"[""Micromanipulator""]",74,3,"[""Micromanipulator""]",1,1,False
+train,train04,12036,11802,11942,Wound Hydratation,,"[""Rycroft Cannula""]",45,4,"[""Rycroft Cannula""]",1,1,False
+train,train04,12812,12578,12718,Wound Hydratation,,"[""Rycroft Cannula""]",54,4,"[""Rycroft Cannula""]",1,1,False
+train,train05,578,345,485,Incision,,"[""Primary Knife""]",99,5,"[""Primary Knife""]",1,1,False
+train,train05,806,572,713,Idle,,"[""I/A Handpiece""]",55,3,"[""I/A Handpiece""]",1,1,False
+train,train05,841,608,748,Viscodilatation,,"[""Visc. Cannula""]",144,5,"[""Visc. Cannula""]",1,1,False
+train,train05,1086,853,993,Capsulorhexis,,"[""Cap. Cystotome""]",186,3,"[""Cap. Cystotome""]",1,1,False
+train,train05,3467,3234,3374,Nucleus Breaking,Divide and Conquer,"[""Ph. Handpiece""]",594,5,"[""Ph. Handpiece""]",1,1,False
+train,train05,6870,6637,6777,Irrigation/Aspiration,,"[""I/A Handpiece""]",810,5,"[""I/A Handpiece""]",1,1,False
+train,train05,9631,9397,9537,Implantation,,"[""Lens Injector""]",1650,3,"[""Lens Injector""]",1,1,False
+train,train05,10045,9812,9952,Idle,,"[""Micromanipulator""]",56,3,"[""Micromanipulator""]",1,1,False
+train,train05,11732,11499,11639,Wound Hydratation,,"[""Rycroft Cannula""]",235,3,"[""Rycroft Cannula""]",1,1,False
+train,train06,380,147,287,Incision,,"[""Rycroft Cannula""]",65,3,"[""Rycroft Cannula""]",1,1,False
+train,train06,392,158,298,Incision,,"[""Primary Knife""]",67,5,"[""Primary Knife""]",1,1,False
+train,train06,643,409,549,Viscodilatation,,"[""Visc. Cannula""]",97,5,"[""Visc. Cannula""]",1,1,False
+train,train06,2249,2015,2156,Idle,,"[""Ph. Handpiece""]",47,3,"[""Ph. Handpiece""]",1,1,False
+train,train06,4760,4527,4667,Idle,,"[""Hydro. Cannula""]",467,5,"[""Hydro. Cannula""]",1,1,False
+train,train06,5409,5175,5315,Irrigation/Aspiration,,"[""I/A Handpiece""]",926,5,"[""I/A Handpiece""]",1,1,False
+train,train06,9374,9141,9281,Preparing Implant,,"[""Lens Injector""]",1605,5,"[""Lens Injector""]",1,1,False
+train,train06,9398,9164,9304,Preparing Implant,,"[""Bonn Forceps""]",1609,4,"[""Bonn Forceps""]",1,1,False
+train,train06,10601,10367,10507,Implantation,,"[""Lens Injector""]",44,4,"[""Lens Injector""]",1,1,False
+train,train06,11307,11074,11214,Positioning,,"[""Rycroft Cannula""]",192,3,"[""Rycroft Cannula""]",1,1,False
+train,train06,11547,11313,11453,OVD Aspiration,,"[""I/A Handpiece""]",161,4,"[""I/A Handpiece""]",1,1,False
+train,train06,12224,11991,12131,OVD Aspiration,,"[""Rycroft Cannula""]",113,4,"[""Rycroft Cannula""]",1,1,False
+train,train06,13457,13223,13363,Wound Hydratation,,"[""Rycroft Cannula""]",46,4,"[""Rycroft Cannula""]",1,1,False
+train,train07,368,135,275,Incision,,"[""Secondary Knife""]",63,5,"[""Secondary Knife""]",1,1,False
+train,train07,374,141,281,Incision,,"[""Bonn Forceps""]",64,3,"[""Bonn Forceps""]",1,1,False
+train,train07,783,549,689,Incision,,"[""Primary Knife""]",134,5,"[""Primary Knife""]",1,1,False
+train,train07,1005,771,911,Idle,,"[""Visc. Cannula""]",172,3,"[""Visc. Cannula""]",1,1,False
+train,train07,2108,1875,2015,Hydrodissetion,,"[""Hydro. Cannula""]",234,5,"[""Hydro. Cannula""]",1,1,False
+train,train07,3883,3650,3790,Phacoemulsification,,"[""Micromanipulator""]",209,5,"[""Micromanipulator""]",1,1,False
+train,train07,5938,5705,5845,Phacoemulsification,,"[""Rycroft Cannula""]",71,4,"[""Rycroft Cannula""]",1,1,False
+train,train07,7602,7369,7509,Irrigation/Aspiration,,"[""Micromanipulator""]",260,3,"[""Micromanipulator""]",1,1,False
+train,train07,9126,8892,9033,Viscodilatation,,"[""Visc. Cannula""]",84,3,"[""Visc. Cannula""]",1,1,False
+train,train07,11210,10977,11117,Implantation,,"[""Lens Injector""]",45,5,"[""Lens Injector""]",1,1,False
+train,train07,11648,11415,11555,Implantation,,"[""Micromanipulator""]",513,3,"[""Micromanipulator""]",1,1,False
+train,train07,12174,11940,12080,OVD Aspiration,,"[""I/A Handpiece""]",167,5,"[""I/A Handpiece""]",1,1,False
+train,train07,12763,12530,12670,OVD Aspiration,,"[""Rycroft Cannula""]",101,3,"[""Rycroft Cannula""]",1,1,False
+train,train07,17025,16792,16932,Wound Hydratation,,"[""Rycroft Cannula""]",40,5,"[""Rycroft Cannula""]",1,1,False
+train,train08,316,82,222,Incision,,"[""Primary Knife""]",54,3,"[""Primary Knife""]",1,1,False
+train,train08,643,409,549,Viscodilatation,,"[""Visc. Cannula""]",51,5,"[""Visc. Cannula""]",1,1,False
+train,train08,1857,1623,1763,Incision,,"[""Cap. Forceps""]",98,3,"[""Cap. Forceps""]",1,1,False
+train,train08,4273,4039,4179,Idle,,"[""Bonn Forceps""]",414,5,"[""Bonn Forceps""]",1,1,False
+train,train08,4705,4471,4611,Idle,,"[""Rycroft Cannula""]",368,5,"[""Rycroft Cannula""]",1,1,False
+train,train08,6036,5802,5942,Capsulorhexis,,"[""Cap. Cystotome""]",216,5,"[""Cap. Cystotome""]",1,1,False
+train,train08,7302,7069,7209,Capsulorhexis,,"[""Hydro. Cannula""]",675,4,"[""Hydro. Cannula""]",1,1,False
+train,train08,7372,7139,7279,Capsulorhexis,,"[""Cap. Forceps""]",226,5,"[""Cap. Forceps""]",1,1,False
+train,train08,8469,8236,8376,Nucleus Breaking,Divide and Conquer,"[""Ph. Handpiece""]",1451,3,"[""Ph. Handpiece""]",1,1,False
+train,train08,8960,8726,8866,Nucleus Breaking,Divide and Conquer,"[""Micromanipulator""]",679,3,"[""Micromanipulator""]",1,1,False
+train,train08,11108,10874,11014,Nucleus Breaking,Divide and Conquer,"[""Micromanipulator""]",83,5,"[""Micromanipulator""]",1,1,False
+train,train08,14458,14224,14364,Irrigation/Aspiration,,"[""I/A Handpiece""]",66,5,"[""I/A Handpiece""]",1,1,False
+train,train08,17037,16804,16944,Viscodilatation,,"[""Visc. Cannula""]",43,5,"[""Visc. Cannula""]",1,1,False
+train,train08,17393,17160,17300,Idle,,"[""Lens Injector""]",2398,5,"[""Lens Injector""]",1,1,False
+train,train08,21018,20785,20925,Idle,,"[""Cap. Forceps""]",246,5,"[""Cap. Forceps""]",1,1,False
+train,train08,21041,20808,20948,Idle,,"[""Bonn Forceps""]",250,5,"[""Bonn Forceps""]",1,1,False
+train,train08,21812,21578,21718,Idle,,"[""Bonn Forceps""]",108,5,"[""Bonn Forceps""]",1,1,False
+train,train08,22226,21993,22133,Idle,,"[""Bonn Forceps""]",60,5,"[""Bonn Forceps""]",1,1,False
+train,train08,22658,22425,22565,Idle,,"[""Rycroft Cannula""]",106,3,"[""Rycroft Cannula""]",1,1,False
+train,train08,22816,22582,22722,OVD Aspiration,,"[""I/A Handpiece""]",93,5,"[""I/A Handpiece""]",1,1,False
+train,train08,23323,23090,23230,OVD Aspiration,,"[""Rycroft Cannula""]",84,4,"[""Rycroft Cannula""]",1,1,False
+train,train08,24322,24088,24228,Idle,,"[""Rycroft Cannula""]",78,3,"[""Rycroft Cannula""]",1,1,False
+train,train08,27041,26808,26948,Wound Hydratation,,"[""Rycroft Cannula""]",103,5,"[""Rycroft Cannula""]",1,1,False
+train,train09,1273,1040,1180,Incision,,"[""Primary Knife""]",218,5,"[""Primary Knife""]",1,1,False
+train,train09,1483,1250,1390,Incision,,"[""Secondary Knife""]",254,5,"[""Secondary Knife""]",1,1,False
+train,train09,2704,2470,2610,Hydrodissetion,,"[""Hydro. Cannula""]",401,5,"[""Hydro. Cannula""]",1,1,False
+train,train09,3696,3463,3603,Nucleus Breaking,Stop and Chop,"[""Micromanipulator""]",567,4,"[""Micromanipulator""]",1,1,False
+train,train09,6651,6417,6557,Irrigation/Aspiration,,"[""I/A Handpiece""]",1139,5,"[""I/A Handpiece""]",1,1,False
+train,train09,8063,7830,7970,Viscodilatation,,"[""Visc. Cannula""]",71,5,"[""Visc. Cannula""]",1,1,False
+train,train09,10428,10194,10335,Implantation,,"[""Lens Injector""]",1786,5,"[""Lens Injector""]",1,1,False
+train,train09,11479,11245,11386,Idle,,"[""Rycroft Cannula""]",83,3,"[""Rycroft Cannula""]",1,1,False
+train,train09,11485,11251,11391,OVD Aspiration,,"[""I/A Handpiece""]",627,5,"[""I/A Handpiece""]",1,1,False
+train,train09,13365,13131,13271,Wound Hydratation,,"[""Rycroft Cannula""]",60,3,"[""Rycroft Cannula""]",1,1,False
+train,train09,13861,13627,13768,Wound Hydratation,,"[""Rycroft Cannula""]",76,5,"[""Rycroft Cannula""]",1,1,False
+train,train09,14486,14252,14392,Wound Hydratation,,"[""Rycroft Cannula""]",51,5,"[""Rycroft Cannula""]",1,1,False
+train,train10,1086,853,993,Incision,,"[""Bonn Forceps""]",117,5,"[""Bonn Forceps""]",1,1,False
+train,train10,1162,929,1069,Incision,,"[""Ph. Handpiece""]",160,4,"[""Ph. Handpiece""]",1,1,False
+train,train10,1763,1530,1670,Idle,,"[""Rycroft Cannula""]",134,3,"[""Rycroft Cannula""]",1,1,False
+train,train10,1886,1652,1792,Viscodilatation,,"[""Visc. Cannula""]",161,5,"[""Visc. Cannula""]",1,1,False
+train,train10,2452,2218,2358,Capsulorhexis,,"[""Cap. Cystotome""]",99,5,"[""Cap. Cystotome""]",1,1,False
+train,train10,2948,2715,2855,Capsulorhexis,,"[""Cap. Forceps""]",113,5,"[""Cap. Forceps""]",1,1,False
+train,train10,3672,3438,3578,Capsulorhexis,,"[""I/A Handpiece""]",629,4,"[""I/A Handpiece""]",1,1,False
+train,train10,6800,6567,6707,Nucleus Breaking,Divide and Conquer,"[""Ph. Handpiece""]",920,3,"[""Ph. Handpiece""]",1,1,False
+train,train10,6829,6596,6736,Nucleus Breaking,Divide and Conquer,"[""Micromanipulator""]",278,5,"[""Micromanipulator""]",1,1,False
+train,train10,6952,6718,6858,Nucleus Breaking,Divide and Conquer,"[""I/A Handpiece""]",553,4,"[""I/A Handpiece""]",1,1,False
+train,train10,14516,14283,14423,Irrigation/Aspiration,,"[""I/A Handpiece""]",1272,4,"[""I/A Handpiece""]",1,1,False
+train,train10,16501,16267,16407,Irrigation/Aspiration,,"[""Rycroft Cannula""]",322,3,"[""Rycroft Cannula""]",1,1,False
+train,train10,17989,17755,17895,Irrigation/Aspiration,,"[""Micromanipulator""]",178,4,"[""Micromanipulator""]",1,1,False
+train,train10,19518,19285,19425,Viscodilatation,,"[""Visc. Cannula""]",369,5,"[""Visc. Cannula""]",1,1,False
+train,train10,20043,19810,19950,Implantation,,"[""Lens Injector""]",2269,5,"[""Lens Injector""]",1,1,False
+train,train10,20785,20551,20691,Idle,,"[""I/A Handpiece""]",247,5,"[""I/A Handpiece""]",1,1,False
+train,train10,23043,22810,22950,Wound Hydratation,,"[""Rycroft Cannula""]",400,5,"[""Rycroft Cannula""]",1,1,False
+train,train10,24508,24275,24415,Wound Hydratation,,"[""Rycroft Cannula""]",44,5,"[""Rycroft Cannula""]",1,1,False
+train,train11,467,234,374,Incision,,"[""Bonn Forceps""]",80,5,"[""Bonn Forceps""]",1,1,False
+train,train11,765,532,672,Incision,,"[""Primary Knife""]",131,5,"[""Primary Knife""]",1,1,False
+train,train11,2697,2464,2604,Capsulorhexis,,"[""Cap. Forceps""]",462,5,"[""Cap. Forceps""]",1,1,False
+train,train11,2872,2639,2779,Idle,,"[""Rycroft Cannula""]",72,4,"[""Rycroft Cannula""]",1,1,False
+train,train11,4197,3964,4104,Nucleus Breaking,Stop and Chop,"[""Bonn Forceps""]",565,5,"[""Bonn Forceps""]",1,1,False
+train,train11,6648,6415,6555,Idle,,"[""I/A Handpiece""]",1139,5,"[""I/A Handpiece""]",1,1,False
+train,train11,9450,9216,9357,Viscodilatation,,"[""Visc. Cannula""]",53,5,"[""Visc. Cannula""]",1,1,False
+train,train11,10349,10115,10255,Preparing Implant,,"[""Lens Injector""]",1569,4,"[""Lens Injector""]",1,1,False
+train,train11,10384,10150,10290,Preparing Implant,,"[""Primary Knife""]",1625,3,"[""Primary Knife""]",1,1,False
+train,train11,12088,11855,11995,OVD Aspiration,,"[""I/A Handpiece""]",79,5,"[""I/A Handpiece""]",1,1,False
+train,train11,12946,12713,12853,Idle,,"[""Rycroft Cannula""]",152,3,"[""Rycroft Cannula""]",1,1,False
+train,train11,13839,13606,13746,Wound Hydratation,,"[""Rycroft Cannula""]",52,4,"[""Rycroft Cannula""]",1,1,False
+train,train12,462,228,368,Incision,,"[""Secondary Knife""]",79,4,"[""Secondary Knife""]",1,1,False
+train,train12,467,234,374,Incision,,"[""Bonn Forceps""]",80,5,"[""Bonn Forceps""]",1,1,False
+train,train12,800,567,707,Incision,,"[""Primary Knife""]",108,4,"[""Primary Knife""]",1,1,False
+train,train12,818,584,724,Incision,,"[""Bonn Forceps""]",40,5,"[""Bonn Forceps""]",1,1,False
+train,train12,1098,864,1004,Viscodilatation,,"[""Visc. Cannula""]",188,5,"[""Visc. Cannula""]",1,1,False
+train,train12,1851,1617,1757,Implant Ejection,,"[""Cap. Forceps""]",317,5,"[""Cap. Forceps""]",1,1,False
+train,train12,2113,1880,2020,Implant Ejection,,"[""Bonn Forceps""]",190,3,"[""Bonn Forceps""]",1,1,False
+train,train12,2166,1932,2072,Implant Ejection,,"[""Secondary Knife""]",253,3,"[""Secondary Knife""]",1,1,False
+train,train12,2516,2283,2423,Viscodilatation,,"[""Visc. Cannula""]",43,5,"[""Visc. Cannula""]",1,1,False
+train,train12,2790,2557,2697,Implant Ejection,,"[""Cap. Forceps""]",64,5,"[""Cap. Forceps""]",1,1,False
+train,train12,2831,2598,2738,Implant Ejection,,"[""I/A Handpiece""]",145,3,"[""I/A Handpiece""]",1,1,False
+train,train12,2901,2668,2808,Implant Ejection,,"[""Suture Needle""]",87,3,"[""Suture Needle""]",1,1,False
+train,train12,2919,2685,2825,Implant Ejection,,"[""Bonn Forceps""]",98,5,"[""Bonn Forceps""]",1,1,False
+train,train12,3713,3479,3619,Viscodilatation,,"[""Visc. Cannula""]",69,4,"[""Visc. Cannula""]",1,1,False
+train,train12,3759,3526,3666,Viscodilatation,,"[""Cap. Forceps""]",79,3,"[""Cap. Forceps""]",1,1,False
+train,train12,3876,3643,3783,Capsulorhexis,,"[""Cap. Cystotome""]",664,4,"[""Cap. Cystotome""]",1,1,False
+train,train12,4781,4547,4687,Capsulorhexis,,"[""Bonn Forceps""]",253,3,"[""Bonn Forceps""]",1,1,False
+train,train12,5744,5510,5650,Hydrodissetion,,"[""Hydro. Cannula""]",607,5,"[""Hydro. Cannula""]",1,1,False
+train,train12,6549,6316,6456,Phacoemulsification,,"[""Micromanipulator""]",176,5,"[""Micromanipulator""]",1,1,False
+train,train12,8318,8084,8224,Irrigation/Aspiration,,"[""I/A Handpiece""]",636,5,"[""I/A Handpiece""]",1,1,False
+train,train12,9929,9695,9835,Viscodilatation,,"[""Visc. Cannula""]",1052,5,"[""Visc. Cannula""]",1,1,False
+train,train12,11767,11534,11674,Idle,,"[""Suture Needle""]",1453,4,"[""Suture Needle""]",1,1,False
+train,train12,11831,11598,11738,Idle,,"[""Cap. Forceps""]",90,3,"[""Cap. Forceps""]",1,1,False
+train,train12,13028,12794,12934,OVD Aspiration,,"[""I/A Handpiece""]",266,5,"[""I/A Handpiece""]",1,1,False
+train,train12,14557,14323,14464,Wound Hydratation,,"[""I/A Handpiece""]",125,3,"[""I/A Handpiece""]",1,1,False
+train,train12,15788,15555,15695,Wound Hydratation,,"[""Rycroft Cannula""]",152,5,"[""Rycroft Cannula""]",1,1,False
+train,train12,17429,17195,17335,Suturing,,"[""Suture Needle""]",951,5,"[""Suture Needle""]",1,1,False
+train,train12,17452,17218,17358,Suturing,,"[""Bonn Forceps""]",621,5,"[""Bonn Forceps""]",1,1,False
+train,train12,18999,18765,18905,Suturing,,"[""Secondary Knife""]",2850,5,"[""Secondary Knife""]",1,1,False
+train,train12,20201,19967,20108,Wound Hydratation,,"[""Rycroft Cannula""]",162,4,"[""Rycroft Cannula""]",1,1,False
+train,train12,20358,20125,20265,Wound Hydratation,,"[""Suture Needle""]",107,3,"[""Suture Needle""]",1,1,False
+train,train12,20960,20726,20866,Idle,,"[""Rycroft Cannula""]",93,4,"[""Rycroft Cannula""]",1,1,False
+train,train13,532,298,438,Incision,,"[""Secondary Knife""]",91,5,"[""Secondary Knife""]",1,1,False
+train,train13,549,316,456,Incision,,"[""Bonn Forceps""]",68,5,"[""Bonn Forceps""]",1,1,False
+train,train13,2248,2014,2154,Hydrodissetion,,"[""Hydro. Cannula""]",155,3,"[""Hydro. Cannula""]",1,1,False
+train,train13,2849,2615,2755,Nucleus Breaking,Stop and Chop,"[""Ph. Handpiece""]",488,3,"[""Ph. Handpiece""]",1,1,False
+train,train13,5860,5627,5767,Irrigation/Aspiration,,"[""I/A Handpiece""]",810,5,"[""I/A Handpiece""]",1,1,False
+train,train13,8364,8131,8271,Viscodilatation,,"[""Visc. Cannula""]",1220,3,"[""Visc. Cannula""]",1,1,False
+train,train13,9234,9001,9141,Preparing Implant,,"[""Lens Injector""]",183,5,"[""Lens Injector""]",1,1,False
+train,train13,10302,10069,10209,Implantation,,"[""I/A Handpiece""]",188,5,"[""I/A Handpiece""]",1,1,False
+train,train13,10641,10407,10547,Implantation,,"[""Lens Injector""]",45,5,"[""Lens Injector""]",1,1,False
+train,train13,10757,10524,10664,Idle,,"[""Micromanipulator""]",687,4,"[""Micromanipulator""]",1,1,False
+train,train13,11248,11014,11154,OVD Aspiration,,"[""I/A Handpiece""]",77,5,"[""I/A Handpiece""]",1,1,False
+train,train13,13430,13197,13337,Wound Hydratation,,"[""Rycroft Cannula""]",42,5,"[""Rycroft Cannula""]",1,1,False
+train,train14,812,579,719,Incision,,"[""Primary Knife""]",139,3,"[""Primary Knife""]",1,1,False
+train,train14,882,649,789,Incision,,"[""Bonn Forceps""]",48,5,"[""Bonn Forceps""]",1,1,False
+train,train14,2348,2114,2254,Implant Ejection,,"[""Cap. Forceps""]",45,5,"[""Cap. Forceps""]",1,1,False
+train,train14,2867,2634,2774,Viscodilatation,,"[""Visc. Cannula""]",47,4,"[""Visc. Cannula""]",1,1,False
+train,train14,3807,3574,3714,Implant Ejection,,"[""Cap. Forceps""]",155,5,"[""Cap. Forceps""]",1,1,False
+train,train14,5640,5407,5547,Capsulorhexis,,"[""Cap. Cystotome""]",233,3,"[""Cap. Cystotome""]",1,1,False
+train,train14,7001,6767,6907,Capsulorhexis,,"[""Cap. Forceps""]",72,5,"[""Cap. Forceps""]",1,1,False
+train,train14,8180,7947,8087,Nucleus Breaking,Stop and Chop,"[""Micromanipulator""]",524,4,"[""Micromanipulator""]",1,1,False
+train,train14,9377,9144,9284,Idle,,"[""Hydro. Cannula""]",319,4,"[""Hydro. Cannula""]",1,1,False
+train,train14,9447,9214,9354,Idle,,"[""Bonn Forceps""]",1457,3,"[""Bonn Forceps""]",1,1,False
+train,train14,12582,12349,12489,Viscodilatation,,"[""Visc. Cannula""]",813,5,"[""Visc. Cannula""]",1,1,False
+train,train14,13820,13587,13727,Preparing Implant,,"[""Lens Injector""]",2367,5,"[""Lens Injector""]",1,1,False
+train,train14,13844,13610,13750,Preparing Implant,,"[""Suture Needle""]",435,3,"[""Suture Needle""]",1,1,False
+train,train14,14182,13949,14089,Idle,,"[""Micromanipulator""]",621,3,"[""Micromanipulator""]",1,1,False
+train,train14,14807,14573,14713,Implantation,,"[""Lens Injector""]",107,5,"[""Lens Injector""]",1,1,False
+train,train14,14848,14614,14754,Implantation,,"[""Micromanipulator""]",111,3,"[""Micromanipulator""]",1,1,False
+train,train14,15251,15017,15157,Positioning,,"[""Micromanipulator""]",54,5,"[""Micromanipulator""]",1,1,False
+train,train14,16366,16132,16272,OVD Aspiration,,"[""Bonn Forceps""]",83,3,"[""Bonn Forceps""]",1,1,False
+train,train14,16804,16570,16710,Wound Hydratation,,"[""Hydro. Cannula""]",1234,5,"[""Hydro. Cannula""]",1,1,False
+train,train14,17568,17335,17475,Suturing,,"[""Bonn Forceps""]",130,5,"[""Bonn Forceps""]",1,1,False
+train,train14,20213,19980,20120,Wound Hydratation,,"[""Rycroft Cannula""]",104,5,"[""Rycroft Cannula""]",1,1,False
+train,train15,1611,1378,1518,Incision,,"[""Secondary Knife""]",212,3,"[""Secondary Knife""]",1,1,False
+train,train15,2055,1822,1962,Incision,,"[""Primary Knife""]",352,5,"[""Primary Knife""]",1,1,False
+train,train15,3823,3590,3730,Hydrodissetion,,"[""Hydro. Cannula""]",655,3,"[""Hydro. Cannula""]",1,1,False
+train,train15,4337,4104,4244,Idle,,"[""Cap. Cystotome""]",106,4,"[""Cap. Cystotome""]",1,1,False
+train,train15,5189,4956,5096,Idle,,"[""Ph. Handpiece""]",156,5,"[""Ph. Handpiece""]",1,1,False
+train,train15,5464,5230,5370,Nucleus Breaking,Stop and Chop,"[""Bonn Forceps""]",884,5,"[""Bonn Forceps""]",1,1,False
+train,train15,8195,7962,8102,Irrigation/Aspiration,,"[""I/A Handpiece""]",1404,5,"[""I/A Handpiece""]",1,1,False
+train,train15,9281,9047,9187,Viscodilatation,,"[""Visc. Cannula""]",53,4,"[""Visc. Cannula""]",1,1,False
+train,train15,9969,9736,9876,Preparing Implant,,"[""Lens Injector""]",115,5,"[""Lens Injector""]",1,1,False
+train,train15,10635,10401,10541,Implantation,,"[""Lens Injector""]",56,4,"[""Lens Injector""]",1,1,False
+train,train15,11732,11499,11639,OVD Aspiration,,"[""I/A Handpiece""]",142,5,"[""I/A Handpiece""]",1,1,False
+train,train15,12806,12572,12713,Idle,,"[""Rycroft Cannula""]",204,4,"[""Rycroft Cannula""]",1,1,False
+train,train15,13693,13460,13600,Idle,,"[""I/A Handpiece""]",183,4,"[""I/A Handpiece""]",1,1,False
+train,train16,298,65,205,Incision,,"[""Micromanipulator""]",51,3,"[""Micromanipulator""]",1,1,False
+train,train16,1045,812,952,Viscodilatation,,"[""Visc. Cannula""]",179,5,"[""Visc. Cannula""]",1,1,False
+train,train16,1460,1226,1366,Capsulorhexis,,"[""Cap. Cystotome""]",55,5,"[""Cap. Cystotome""]",1,1,False
+train,train16,2417,2183,2323,Capsulorhexis,,"[""Cap. Forceps""]",414,5,"[""Cap. Forceps""]",1,1,False
+train,train16,3164,2930,3071,Idle,,"[""Ph. Handpiece""]",542,4,"[""Ph. Handpiece""]",1,1,False
+train,train16,3502,3269,3409,Nucleus Breaking,Divide and Conquer,"[""I/A Handpiece""]",80,3,"[""I/A Handpiece""]",1,1,False
+train,train16,5084,4851,4991,Nucleus Breaking,Divide and Conquer,"[""Ph. Handpiece""]",239,3,"[""Ph. Handpiece""]",1,1,False
+train,train16,7979,7746,7886,Irrigation/Aspiration,,"[""I/A Handpiece""]",493,5,"[""I/A Handpiece""]",1,1,False
+train,train16,8954,8720,8860,Irrigation/Aspiration,,"[""Micromanipulator""]",238,3,"[""Micromanipulator""]",1,1,False
+train,train16,9386,9152,9292,Viscodilatation,,"[""Visc. Cannula""]",1220,3,"[""Visc. Cannula""]",1,1,False
+train,train16,10214,9981,10121,Preparing Implant,,"[""Lens Injector""]",138,5,"[""Lens Injector""]",1,1,False
+train,train16,10249,10016,10156,Preparing Implant,,"[""Cap. Forceps""]",1333,5,"[""Cap. Forceps""]",1,1,False
+train,train16,10261,10028,10168,Preparing Implant,,"[""Suture Needle""]",1758,5,"[""Suture Needle""]",1,1,False
+train,train16,10279,10045,10185,Preparing Implant,,"[""I/A Handpiece""]",135,4,"[""I/A Handpiece""]",1,1,False
+train,train16,10512,10279,10419,Preparing Implant,,"[""Rycroft Cannula""]",194,5,"[""Rycroft Cannula""]",1,1,False
+train,train16,10856,10623,10763,Preparing Implant,,"[""Rycroft Cannula""]",54,3,"[""Rycroft Cannula""]",1,1,False
+train,train16,10862,10629,10769,Preparing Implant,,"[""Bonn Forceps""]",55,3,"[""Bonn Forceps""]",1,1,False
+train,train16,10874,10640,10781,Preparing Implant,,"[""Lens Injector""]",58,5,"[""Lens Injector""]",1,1,False
+train,train16,10944,10711,10851,Preparing Implant,,"[""Cap. Forceps""]",70,3,"[""Cap. Forceps""]",1,1,False
+train,train16,11960,11726,11866,Preparing Implant,,"[""Lens Injector""]",68,4,"[""Lens Injector""]",1,1,False
+train,train16,12012,11779,11919,Preparing Implant,,"[""Cap. Cystotome""]",1497,3,"[""Cap. Cystotome""]",1,1,False
+train,train16,12035,11802,11942,Preparing Implant,,"[""Suture Needle""]",103,5,"[""Suture Needle""]",1,1,False
+train,train16,12677,12444,12584,Preparing Implant,,"[""Suture Needle""]",79,3,"[""Suture Needle""]",1,1,False
+train,train16,13220,12987,13127,Preparing Implant,,"[""Lens Injector""]",89,4,"[""Lens Injector""]",1,1,False
+train,train16,13226,12993,13133,Preparing Implant,,"[""Bonn Forceps""]",108,3,"[""Bonn Forceps""]",1,1,False
+train,train16,13249,13016,13156,Preparing Implant,,"[""Primary Knife""]",150,4,"[""Primary Knife""]",1,1,False
+train,train16,13635,13401,13541,Preparing Implant,,"[""Suture Needle""]",161,5,"[""Suture Needle""]",1,1,False
+train,train16,13652,13419,13559,Preparing Implant,,"[""Cap. Forceps""]",53,3,"[""Cap. Forceps""]",1,1,False
+train,train16,15409,15175,15316,Positioning,,"[""Micromanipulator""]",149,5,"[""Micromanipulator""]",1,1,False
+train,train16,16541,16308,16448,Wound Hydratation,,"[""Rycroft Cannula""]",174,3,"[""Rycroft Cannula""]",1,1,False
+train,train17,438,205,345,Incision,,"[""Bonn Forceps""]",75,4,"[""Bonn Forceps""]",1,1,False
+train,train17,462,228,368,Incision,,"[""Secondary Knife""]",79,4,"[""Secondary Knife""]",1,1,False
+train,train17,888,654,794,Incision,,"[""Primary Knife""]",152,5,"[""Primary Knife""]",1,1,False
+train,train17,1051,818,958,Idle,,"[""Ph. Handpiece""]",180,5,"[""Ph. Handpiece""]",1,1,False
+train,train17,1343,1109,1250,Viscodilatation,,"[""Visc. Cannula""]",40,5,"[""Visc. Cannula""]",1,1,False
+train,train17,3304,3071,3211,Nucleus Breaking,Divide and Conquer,"[""Ph. Handpiece""]",76,4,"[""Ph. Handpiece""]",1,1,False
+train,train17,3853,3619,3759,Nucleus Breaking,Divide and Conquer,"[""Micromanipulator""]",660,5,"[""Micromanipulator""]",1,1,False
+train,train17,6602,6368,6508,Irrigation/Aspiration,,"[""I/A Handpiece""]",1131,5,"[""I/A Handpiece""]",1,1,False
+train,train17,6899,6666,6806,Irrigation/Aspiration,,"[""Micromanipulator""]",68,5,"[""Micromanipulator""]",1,1,False
+train,train17,7973,7740,7880,Irrigation/Aspiration,,"[""Visc. Cannula""]",47,5,"[""Visc. Cannula""]",1,1,False
+train,train17,8750,8516,8656,Preparing Implant,,"[""Lens Injector""]",1499,5,"[""Lens Injector""]",1,1,False
+train,train17,8837,8604,8744,Preparing Implant,,"[""Primary Knife""]",142,4,"[""Primary Knife""]",1,1,False
+train,train17,9637,9403,9543,Implantation,,"[""Lens Injector""]",58,5,"[""Lens Injector""]",1,1,False
+train,train17,9771,9537,9678,Idle,,"[""Micromanipulator""]",154,4,"[""Micromanipulator""]",1,1,False
+train,train17,10028,9794,9934,Positioning,,"[""Micromanipulator""]",40,5,"[""Micromanipulator""]",1,1,False
+train,train17,10296,10063,10203,OVD Aspiration,,"[""I/A Handpiece""]",52,5,"[""I/A Handpiece""]",1,1,False
+train,train17,11067,10833,10973,Wound Hydratation,,"[""Rycroft Cannula""]",146,5,"[""Rycroft Cannula""]",1,1,False
+train,train18,526,292,432,Incision,,"[""Secondary Knife""]",90,4,"[""Secondary Knife""]",1,1,False
+train,train18,543,310,450,Incision,,"[""Bonn Forceps""]",93,5,"[""Bonn Forceps""]",1,1,False
+train,train18,858,625,765,Incision,,"[""Primary Knife""]",147,4,"[""Primary Knife""]",1,1,False
+train,train18,1115,882,1022,Idle,,"[""Visc. Cannula""]",42,4,"[""Visc. Cannula""]",1,1,False
+train,train18,1267,1034,1174,Idle,,"[""Rycroft Cannula""]",105,4,"[""Rycroft Cannula""]",1,1,False
+train,train18,1518,1285,1425,Capsulorhexis,,"[""Cap. Cystotome""]",68,5,"[""Cap. Cystotome""]",1,1,False
+train,train18,2300,2067,2207,Hydrodissetion,,"[""Hydro. Cannula""]",132,3,"[""Hydro. Cannula""]",1,1,False
+train,train18,3123,2890,3030,Nucleus Breaking,Stop and Chop,"[""Ph. Handpiece""]",535,3,"[""Ph. Handpiece""]",1,1,False
+train,train18,6012,5779,5919,Idle,,"[""I/A Handpiece""]",104,3,"[""I/A Handpiece""]",1,1,False
+train,train18,7611,7378,7518,Viscodilatation,,"[""Visc. Cannula""]",212,5,"[""Visc. Cannula""]",1,1,False
+train,train18,8504,8271,8411,Preparing Implant,,"[""Rycroft Cannula""]",107,3,"[""Rycroft Cannula""]",1,1,False
+train,train18,8510,8277,8417,Preparing Implant,,"[""Micromanipulator""]",223,3,"[""Micromanipulator""]",1,1,False
+train,train18,8551,8318,8458,Preparing Implant,,"[""I/A Handpiece""]",189,5,"[""I/A Handpiece""]",1,1,False
+train,train18,8983,8750,8890,Preparing Implant,,"[""Lens Injector""]",74,5,"[""Lens Injector""]",1,1,False
+train,train18,9071,8837,8977,Preparing Implant,,"[""Micromanipulator""]",83,3,"[""Micromanipulator""]",1,1,False
+train,train18,9193,8960,9100,Preparing Implant,,"[""Ph. Handpiece""]",114,4,"[""Ph. Handpiece""]",1,1,False
+train,train18,10255,10022,10162,Positioning,,"[""Rycroft Cannula""]",121,5,"[""Rycroft Cannula""]",1,1,False
+train,train18,10261,10028,10168,Positioning,,"[""Hydro. Cannula""]",298,3,"[""Hydro. Cannula""]",1,1,False
+train,train18,10967,10734,10874,OVD Aspiration,,"[""I/A Handpiece""]",298,5,"[""I/A Handpiece""]",1,1,False
+train,train18,12707,12473,12613,Wound Hydratation,,"[""Rycroft Cannula""]",51,5,"[""Rycroft Cannula""]",1,1,False
+train,train18,13611,13378,13518,Wound Hydratation,,"[""Rycroft Cannula""]",44,3,"[""Rycroft Cannula""]",1,1,False
+train,train19,579,345,485,Incision,,"[""Primary Knife""]",99,5,"[""Primary Knife""]",1,1,False
+train,train19,830,596,736,Incision,,"[""Visc. Cannula""]",40,3,"[""Visc. Cannula""]",1,1,False
+train,train19,1332,1098,1238,Incision,,"[""Bonn Forceps""]",228,3,"[""Bonn Forceps""]",1,1,False
+train,train19,1659,1425,1565,Viscodilatation,,"[""Visc. Cannula""]",94,5,"[""Visc. Cannula""]",1,1,False
+train,train19,2896,2663,2803,Idle,,"[""Rycroft Cannula""]",123,3,"[""Rycroft Cannula""]",1,1,False
+train,train19,4228,3994,4134,Capsulorhexis,,"[""Visc. Cannula""]",135,5,"[""Visc. Cannula""]",1,1,False
+train,train19,4514,4280,4420,Capsulorhexis,,"[""Cap. Forceps""]",221,4,"[""Cap. Forceps""]",1,1,False
+train,train19,4654,4420,4560,Capsulorhexis,,"[""Suture Needle""]",797,3,"[""Suture Needle""]",1,1,False
+train,train19,5343,5109,5249,Capsulorhexis,,"[""Bonn Forceps""]",185,4,"[""Bonn Forceps""]",1,1,False
+train,train19,6721,6487,6627,Hydrodissetion,,"[""Hydro. Cannula""]",115,3,"[""Hydro. Cannula""]",1,1,False
+train,train19,6732,6499,6639,Hydrodissetion,,"[""Rycroft Cannula""]",230,5,"[""Rycroft Cannula""]",1,1,False
+train,train19,8560,8326,8466,Idle,,"[""Hydro. Cannula""]",52,3,"[""Hydro. Cannula""]",1,1,False
+train,train19,9050,8817,8957,Nucleus Breaking,Divide and Conquer,"[""Micromanipulator""]",79,5,"[""Micromanipulator""]",1,1,False
+train,train19,9570,9336,9476,Nucleus Breaking,Divide and Conquer,"[""I/A Handpiece""]",179,3,"[""I/A Handpiece""]",1,1,False
+train,train19,11035,10802,10942,Nucleus Breaking,Divide and Conquer,"[""Micromanipulator""]",79,5,"[""Micromanipulator""]",1,1,False
+train,train19,11397,11164,11304,Nucleus Breaking,Divide and Conquer,"[""Hydro. Cannula""]",243,4,"[""Hydro. Cannula""]",1,1,False
+train,train19,12092,11858,11999,Nucleus Breaking,Divide and Conquer,"[""Rycroft Cannula""]",421,3,"[""Rycroft Cannula""]",1,1,False
+train,train19,12670,12436,12577,Phacoemulsification,,"[""Rycroft Cannula""]",96,4,"[""Rycroft Cannula""]",1,1,False
+train,train19,13382,13149,13289,Phacoemulsification,,"[""Rycroft Cannula""]",54,4,"[""Rycroft Cannula""]",1,1,False
+train,train19,13452,13219,13359,Phacoemulsification,,"[""Suture Needle""]",1269,3,"[""Suture Needle""]",1,1,False
+train,train19,14497,14264,14404,Phacoemulsification,,"[""Rycroft Cannula""]",162,3,"[""Rycroft Cannula""]",1,1,False
+train,train19,16488,16255,16395,Phacoemulsification,,"[""Rycroft Cannula""]",338,3,"[""Rycroft Cannula""]",1,1,False
+train,train19,16920,16687,16827,Phacoemulsification,,"[""Rycroft Cannula""]",69,3,"[""Rycroft Cannula""]",1,1,False
+train,train19,17428,17195,17335,Phacoemulsification,,"[""Rycroft Cannula""]",47,5,"[""Rycroft Cannula""]",1,1,False
+train,train19,17837,17603,17744,Phacoemulsification,,"[""Visc. Cannula""]",1372,3,"[""Visc. Cannula""]",1,1,False
+train,train19,18800,18567,18707,Phacoemulsification,,"[""Hydro. Cannula""]",46,4,"[""Hydro. Cannula""]",1,1,False
+train,train19,19361,19127,19267,Phacoemulsification,,"[""Micromanipulator""]",72,5,"[""Micromanipulator""]",1,1,False
+train,train19,20371,20137,20278,Phacoemulsification,,"[""Rycroft Cannula""]",107,5,"[""Rycroft Cannula""]",1,1,False
+train,train19,21241,21007,21147,Phacoemulsification,,"[""Rycroft Cannula""]",143,4,"[""Rycroft Cannula""]",1,1,False
+train,train19,22549,22315,22455,Phacoemulsification,,"[""Rycroft Cannula""]",65,5,"[""Rycroft Cannula""]",1,1,False
+train,train19,23062,22829,22969,Irrigation/Aspiration,,"[""Ph. Handpiece""]",84,4,"[""Ph. Handpiece""]",1,1,False
+train,train19,24178,23944,24084,Irrigation/Aspiration,,"[""Ph. Handpiece""]",176,5,"[""Ph. Handpiece""]",1,1,False
+train,train19,26279,26046,26186,Irrigation/Aspiration,,"[""Rycroft Cannula""]",342,4,"[""Rycroft Cannula""]",1,1,False
+train,train19,26647,26414,26554,Manual Aspiration,,"[""Hydro. Cannula""]",1319,5,"[""Hydro. Cannula""]",1,1,False
+train,train19,28148,27914,28054,Manual Aspiration,,"[""Rycroft Cannula""]",172,4,"[""Rycroft Cannula""]",1,1,False
+train,train19,29035,28802,28942,Manual Aspiration,,"[""Hydro. Cannula""]",75,5,"[""Hydro. Cannula""]",1,1,False
+train,train19,32468,32235,32375,Vitrectomy,,"[""Rycroft Cannula""]",736,3,"[""Rycroft Cannula""]",1,1,False
+train,train19,37898,37664,37805,Idle,,"[""Visc. Cannula""]",988,3,"[""Visc. Cannula""]",1,1,False
+train,train19,38172,37939,38079,Manual Aspiration,,"[""Hydro. Cannula""]",1441,5,"[""Hydro. Cannula""]",1,1,False
+train,train19,39994,39760,39901,Manual Aspiration,,"[""Micromanipulator""]",108,4,"[""Micromanipulator""]",1,1,False
+train,train19,40846,40613,40753,Manual Aspiration,,"[""Micromanipulator""]",140,3,"[""Micromanipulator""]",1,1,False
+train,train19,41845,41611,41751,Idle,,"[""Visc. Cannula""]",76,3,"[""Visc. Cannula""]",1,1,False
+train,train19,42090,41856,41997,Incision,,"[""Primary Knife""]",3084,5,"[""Primary Knife""]",1,1,False
+train,train19,42510,42277,42417,Vitrectomy,,"[""Micromanipulator""]",63,3,"[""Micromanipulator""]",1,1,False
+train,train19,42960,42726,42867,Vitrectomy,,"[""Micromanipulator""]",58,5,"[""Micromanipulator""]",1,1,False
+train,train19,44595,44361,44501,Manual Aspiration,,"[""Micromanipulator""]",55,3,"[""Micromanipulator""]",1,1,False
+train,train19,49663,49429,49569,Idle,,"[""Visc. Cannula""]",289,5,"[""Visc. Cannula""]",1,1,False
+train,train19,49698,49464,49604,Idle,,"[""Rycroft Cannula""]",178,3,"[""Rycroft Cannula""]",1,1,False
+train,train19,50270,50036,50176,Manual Aspiration,,"[""Visc. Cannula""]",58,5,"[""Visc. Cannula""]",1,1,False
+train,train19,50299,50065,50205,Manual Aspiration,,"[""Micromanipulator""]",98,4,"[""Micromanipulator""]",1,1,False
+train,train19,51262,51029,51169,Idle,,"[""Rycroft Cannula""]",129,5,"[""Rycroft Cannula""]",1,1,False
+train,train19,52442,52208,52348,Vitrectomy,,"[""I/A Handpiece""]",376,4,"[""I/A Handpiece""]",1,1,False
+train,train19,52570,52337,52477,Vitrectomy,,"[""Rycroft Cannula""]",214,3,"[""Rycroft Cannula""]",1,1,False
+train,train19,54018,53784,53925,Manual Aspiration,,"[""Rycroft Cannula""]",41,3,"[""Rycroft Cannula""]",1,1,False
+train,train19,54374,54141,54281,Manual Aspiration,,"[""Visc. Cannula""]",138,4,"[""Visc. Cannula""]",1,1,False
+train,train19,54614,54380,54520,Idle,,"[""Micromanipulator""]",44,5,"[""Micromanipulator""]",1,1,False
+train,train19,55764,55530,55670,Vitrectomy,,"[""Micromanipulator""]",65,4,"[""Micromanipulator""]",1,1,False
+train,train19,56196,55962,56102,Viscodilatation,,"[""Visc. Cannula""]",40,5,"[""Visc. Cannula""]",1,1,False
+train,train19,56879,56645,56785,Preparing Implant,,"[""Visc. Cannula""]",52,3,"[""Visc. Cannula""]",1,1,False
+train,train19,56949,56715,56856,Preparing Implant,,"[""Bonn Forceps""]",609,4,"[""Bonn Forceps""]",1,1,False
+train,train19,56961,56727,56867,Preparing Implant,,"[""Suture Needle""]",190,3,"[""Suture Needle""]",1,1,False
+train,train19,57188,56955,57095,Preparing Implant,,"[""Micromanipulator""]",41,4,"[""Micromanipulator""]",1,1,False
+train,train19,57247,57013,57153,Preparing Implant,,"[""Rycroft Cannula""]",61,4,"[""Rycroft Cannula""]",1,1,False
+train,train19,57556,57323,57463,Preparing Implant,,"[""Primary Knife""]",49,4,"[""Primary Knife""]",1,1,False
+train,train19,57638,57404,57544,Preparing Implant,,"[""Cap. Forceps""]",101,3,"[""Cap. Forceps""]",1,1,False
+train,train19,58187,57953,58093,Preparing Implant,,"[""Micromanipulator""]",167,5,"[""Micromanipulator""]",1,1,False
+train,train19,58741,58508,58648,Incision,,"[""Primary Knife""]",49,5,"[""Primary Knife""]",1,1,False
+train,train19,59173,58940,59080,Implantation,,"[""Lens Injector""]",122,5,"[""Lens Injector""]",1,1,False
+train,train19,59214,58981,59121,Implantation,,"[""Primary Knife""]",58,4,"[""Primary Knife""]",1,1,False
+train,train19,59220,58987,59127,Implantation,,"[""Suture Needle""]",62,4,"[""Suture Needle""]",1,1,False
+train,train19,59915,59681,59821,Idle,,"[""Visc. Cannula""]",102,3,"[""Visc. Cannula""]",1,1,False
+train,train19,59973,59740,59880,Implantation,,"[""Suture Needle""]",107,4,"[""Suture Needle""]",1,1,False
+train,train19,60791,60557,60697,Positioning,,"[""Cap. Forceps""]",537,5,"[""Cap. Forceps""]",1,1,False
+train,train19,61456,61223,61363,Positioning,,"[""Visc. Cannula""]",101,4,"[""Visc. Cannula""]",1,1,False
+train,train19,63091,62857,62998,Positioning,,"[""Suture Needle""]",44,3,"[""Suture Needle""]",1,1,False
+train,train19,66477,66244,66384,Suturing,,"[""Bonn Forceps""]",970,5,"[""Bonn Forceps""]",1,1,False
+train,train19,67341,67108,67248,Suturing,,"[""Secondary Knife""]",1368,4,"[""Secondary Knife""]",1,1,False
+train,train19,68538,68305,68445,Suturing,,"[""Suture Needle""]",91,4,"[""Suture Needle""]",1,1,False
+train,train19,69554,69321,69461,Suturing,,"[""Bonn Forceps""]",174,3,"[""Bonn Forceps""]",1,1,False
+train,train19,70272,70039,70179,Wound Hydratation,,"[""Lens Injector""]",1657,5,"[""Lens Injector""]",1,1,False
+train,train20,532,298,439,Incision,,"[""Bonn Forceps""]",91,5,"[""Bonn Forceps""]",1,1,False
+train,train20,1426,1192,1332,Incision,,"[""Primary Knife""]",244,5,"[""Primary Knife""]",1,1,False
+train,train20,1776,1542,1683,Viscodilatation,,"[""Visc. Cannula""]",304,5,"[""Visc. Cannula""]",1,1,False
+train,train20,2290,2056,2196,Capsulorhexis,,"[""Cap. Cystotome""]",67,5,"[""Cap. Cystotome""]",1,1,False
+train,train20,2360,2126,2267,Capsulorhexis,,"[""Bonn Forceps""]",124,5,"[""Bonn Forceps""]",1,1,False
+train,train20,4095,3861,4001,Hydrodissetion,,"[""Hydro. Cannula""]",306,5,"[""Hydro. Cannula""]",1,1,False
+train,train20,4801,4568,4708,Nucleus Breaking,Stop and Chop,"[""Ph. Handpiece""]",822,5,"[""Ph. Handpiece""]",1,1,False
+train,train20,4918,4684,4825,Nucleus Breaking,Stop and Chop,"[""Bonn Forceps""]",239,4,"[""Bonn Forceps""]",1,1,False
+train,train20,5233,5000,5140,Nucleus Breaking,Stop and Chop,"[""Micromanipulator""]",568,5,"[""Micromanipulator""]",1,1,False
+train,train20,7669,7435,7575,Irrigation/Aspiration,,"[""I/A Handpiece""]",1313,3,"[""I/A Handpiece""]",1,1,False
+train,train20,7990,7757,7897,Irrigation/Aspiration,,"[""Micromanipulator""]",52,3,"[""Micromanipulator""]",1,1,False
+train,train20,9322,9088,9228,Idle,,"[""Visc. Cannula""]",1203,3,"[""Visc. Cannula""]",1,1,False
+train,train20,9596,9363,9503,Viscodilatation,,"[""Visc. Cannula""]",43,5,"[""Visc. Cannula""]",1,1,False
+train,train20,11325,11091,11232,Idle,,"[""Rycroft Cannula""]",1610,5,"[""Rycroft Cannula""]",1,1,False
+train,train20,11541,11307,11448,Preparing Implant,,"[""Lens Injector""]",1976,5,"[""Lens Injector""]",1,1,False
+train,train20,11576,11342,11483,Preparing Implant,,"[""Suture Needle""]",1982,4,"[""Suture Needle""]",1,1,False
+train,train20,11588,11354,11494,Preparing Implant,,"[""Bonn Forceps""]",1138,3,"[""Bonn Forceps""]",1,1,False
+train,train20,12522,12289,12429,Preparing Implant,,"[""Rycroft Cannula""]",40,3,"[""Rycroft Cannula""]",1,1,False
+train,train20,13340,13106,13246,Implantation,,"[""Lens Injector""]",107,5,"[""Lens Injector""]",1,1,False
+train,train20,13609,13375,13515,Positioning,,"[""Micromanipulator""]",154,5,"[""Micromanipulator""]",1,1,False
+train,train20,14006,13772,13912,OVD Aspiration,,"[""I/A Handpiece""]",61,5,"[""I/A Handpiece""]",1,1,False
+train,train20,14829,14596,14736,OVD Aspiration,,"[""Micromanipulator""]",128,5,"[""Micromanipulator""]",1,1,False
+train,train20,15571,15337,15477,Wound Hydratation,,"[""Rycroft Cannula""]",268,5,"[""Rycroft Cannula""]",1,1,False
+train,train20,16564,16330,16470,Wound Hydratation,,"[""Rycroft Cannula""]",60,3,"[""Rycroft Cannula""]",1,1,False
+train,train21,649,415,555,Incision,,"[""Secondary Knife""]",111,4,"[""Secondary Knife""]",1,1,False
+train,train21,1145,911,1051,Incision,,"[""Primary Knife""]",196,5,"[""Primary Knife""]",1,1,False
+train,train21,1466,1232,1373,Viscodilatation,,"[""Visc. Cannula""]",133,5,"[""Visc. Cannula""]",1,1,False
+train,train21,1682,1448,1589,Capsulorhexis,,"[""Hydro. Cannula""]",288,3,"[""Hydro. Cannula""]",1,1,False
+train,train21,3142,2908,3048,Idle,,"[""Rycroft Cannula""]",67,3,"[""Rycroft Cannula""]",1,1,False
+train,train21,3311,3077,3217,Nucleus Breaking,Stop and Chop,"[""Ph. Handpiece""]",567,4,"[""Ph. Handpiece""]",1,1,False
+train,train21,3720,3486,3626,Nucleus Breaking,Stop and Chop,"[""Micromanipulator""]",168,5,"[""Micromanipulator""]",1,1,False
+train,train21,5991,5757,5897,Irrigation/Aspiration,,"[""I/A Handpiece""]",443,5,"[""I/A Handpiece""]",1,1,False
+train,train21,7550,7316,7456,Irrigation/Aspiration,,"[""Micromanipulator""]",132,5,"[""Micromanipulator""]",1,1,False
+train,train21,8548,8314,8455,Viscodilatation,,"[""Visc. Cannula""]",1176,5,"[""Visc. Cannula""]",1,1,False
+train,train21,9155,8922,9062,Idle,,"[""Visc. Cannula""]",73,4,"[""Visc. Cannula""]",1,1,False
+train,train21,9377,9144,9284,Idle,,"[""Rycroft Cannula""]",570,3,"[""Rycroft Cannula""]",1,1,False
+train,train21,9681,9447,9587,Implantation,,"[""I/A Handpiece""]",41,3,"[""I/A Handpiece""]",1,1,False
+train,train21,9710,9476,9616,Implantation,,"[""Lens Injector""]",50,5,"[""Lens Injector""]",1,1,False
+train,train21,10492,10259,10399,OVD Aspiration,,"[""I/A Handpiece""]",92,5,"[""I/A Handpiece""]",1,1,False
+train,train21,11607,11374,11514,OVD Aspiration,,"[""Rycroft Cannula""]",190,3,"[""Rycroft Cannula""]",1,1,False
+train,train21,12320,12086,12226,Idle,,"[""Rycroft Cannula""]",43,3,"[""Rycroft Cannula""]",1,1,False
+train,train21,12734,12501,12641,Suturing,,"[""Cap. Forceps""]",389,5,"[""Cap. Forceps""]",1,1,False
+train,train21,12740,12507,12647,Suturing,,"[""Bonn Forceps""]",1950,3,"[""Bonn Forceps""]",1,1,False
+train,train21,13166,12933,13073,Suturing,,"[""Micromanipulator""]",72,3,"[""Micromanipulator""]",1,1,False
+train,train21,13989,13756,13896,Suturing,,"[""Secondary Knife""]",2201,5,"[""Secondary Knife""]",1,1,False
+train,train21,14457,14223,14363,Wound Hydratation,,"[""Rycroft Cannula""]",76,4,"[""Rycroft Cannula""]",1,1,False
+train,train21,15023,14789,14929,Wound Hydratation,,"[""Rycroft Cannula""]",57,3,"[""Rycroft Cannula""]",1,1,False
+train,train21,15367,15134,15274,Idle,,"[""I/A Handpiece""]",441,3,"[""I/A Handpiece""]",1,1,False
+train,train22,707,473,614,Idle,,"[""Rycroft Cannula""]",46,4,"[""Rycroft Cannula""]",1,1,False
+train,train22,981,748,888,Incision,,"[""I/A Handpiece""]",168,4,"[""I/A Handpiece""]",1,1,False
+train,train22,1355,1121,1262,Incision,,"[""Bonn Forceps""]",72,5,"[""Bonn Forceps""]",1,1,False
+train,train22,1659,1425,1565,Viscodilatation,,"[""Visc. Cannula""]",284,5,"[""Visc. Cannula""]",1,1,False
+train,train22,2324,2091,2231,Capsulorhexis,,"[""Cap. Cystotome""]",398,5,"[""Cap. Cystotome""]",1,1,False
+train,train22,3947,3714,3854,Idle,,"[""Ph. Handpiece""]",676,3,"[""Ph. Handpiece""]",1,1,False
+train,train22,4292,4058,4198,Nucleus Breaking,Stop and Chop,"[""Bonn Forceps""]",273,5,"[""Bonn Forceps""]",1,1,False
+train,train22,11088,10854,10994,Viscodilatation,,"[""Visc. Cannula""]",55,5,"[""Visc. Cannula""]",1,1,False
+train,train22,12687,12454,12594,Implantation,,"[""I/A Handpiece""]",272,4,"[""I/A Handpiece""]",1,1,False
+train,train22,12693,12460,12600,Implantation,,"[""Micromanipulator""]",381,3,"[""Micromanipulator""]",1,1,False
+train,train22,14597,14363,14503,OVD Aspiration,,"[""Micromanipulator""]",129,4,"[""Micromanipulator""]",1,1,False
+train,train22,18444,18211,18351,Wound Hydratation,,"[""Rycroft Cannula""]",48,4,"[""Rycroft Cannula""]",1,1,False
+train,train22,20342,20108,20248,Wound Hydratation,,"[""Rycroft Cannula""]",45,5,"[""Rycroft Cannula""]",1,1,False
+train,train23,929,695,835,Incision,,"[""Visc. Cannula""]",159,3,"[""Visc. Cannula""]",1,1,False
+train,train23,946,713,853,Incision,,"[""Secondary Knife""]",162,5,"[""Secondary Knife""]",1,1,False
+train,train23,1232,999,1139,Incision,,"[""Primary Knife""]",211,5,"[""Primary Knife""]",1,1,False
+train,train23,1641,1408,1548,Capsulorhexis,,"[""Cap. Cystotome""]",67,5,"[""Cap. Cystotome""]",1,1,False
+train,train23,2458,2225,2365,Hydrodissetion,,"[""Hydro. Cannula""]",242,5,"[""Hydro. Cannula""]",1,1,False
+train,train23,7071,6837,6977,Idle,,"[""Visc. Cannula""]",56,3,"[""Visc. Cannula""]",1,1,False
+train,train23,8420,8186,8326,Implantation,,"[""Lens Injector""]",1442,3,"[""Lens Injector""]",1,1,False
+train,train23,10866,10632,10772,Wound Hydratation,,"[""Rycroft Cannula""]",94,3,"[""Rycroft Cannula""]",1,1,False
+train,train24,1512,1279,1419,Incision,,"[""Secondary Knife""]",157,3,"[""Secondary Knife""]",1,1,False
+train,train24,1518,1285,1425,Incision,,"[""Bonn Forceps""]",260,3,"[""Bonn Forceps""]",1,1,False
+train,train24,3526,3292,3432,Incision,,"[""Primary Knife""]",424,3,"[""Primary Knife""]",1,1,False
+train,train24,3532,3298,3438,Incision,,"[""Bonn Forceps""]",312,5,"[""Bonn Forceps""]",1,1,False
+train,train24,3800,3567,3707,Viscodilatation,,"[""Visc. Cannula""]",651,5,"[""Visc. Cannula""]",1,1,False
+train,train24,4185,3952,4092,Capsulorhexis,,"[""Cap. Cystotome""]",717,4,"[""Cap. Cystotome""]",1,1,False
+train,train24,5201,4967,5108,Capsulorhexis,,"[""Hydro. Cannula""]",177,3,"[""Hydro. Cannula""]",1,1,False
+train,train24,7016,6783,6923,Nucleus Breaking,Stop and Chop,"[""Hydro. Cannula""]",142,3,"[""Hydro. Cannula""]",1,1,False
+train,train24,9853,9619,9759,Irrigation/Aspiration,,"[""Micromanipulator""]",48,5,"[""Micromanipulator""]",1,1,False
+train,train24,12281,12047,12187,Preparing Implant,,"[""Lens Injector""]",2104,3,"[""Lens Injector""]",1,1,False
+train,train24,12397,12164,12304,Preparing Implant,,"[""Rycroft Cannula""]",175,4,"[""Rycroft Cannula""]",1,1,False
+train,train24,12438,12205,12345,Preparing Implant,,"[""Bonn Forceps""]",177,3,"[""Bonn Forceps""]",1,1,False
+train,train24,12537,12304,12444,Preparing Implant,,"[""Primary Knife""]",1516,4,"[""Primary Knife""]",1,1,False
+train,train24,13390,13156,13296,Implantation,,"[""Lens Injector""]",50,5,"[""Lens Injector""]",1,1,False
+train,train24,13448,13215,13355,Implantation,,"[""Micromanipulator""]",61,3,"[""Micromanipulator""]",1,1,False
+train,train24,14370,14137,14277,OVD Aspiration,,"[""I/A Handpiece""]",109,5,"[""I/A Handpiece""]",1,1,False
+train,train24,17026,16792,16932,Wound Hydratation,,"[""Rycroft Cannula""]",109,5,"[""Rycroft Cannula""]",1,1,False
+train,train24,17534,17300,17440,Wound Hydratation,,"[""Rycroft Cannula""]",44,5,"[""Rycroft Cannula""]",1,1,False
+train,train24,18193,17960,18100,Wound Hydratation,,"[""Rycroft Cannula""]",44,5,"[""Rycroft Cannula""]",1,1,False
+train,train25,1770,1536,1676,Idle,,"[""Rycroft Cannula""]",40,3,"[""Rycroft Cannula""]",1,1,False
+train,train25,2494,2260,2400,Capsulorhexis,,"[""Cap. Cystotome""]",55,5,"[""Cap. Cystotome""]",1,1,False
+train,train25,4893,4660,4800,Nucleus Breaking,Stop and Chop,"[""Hydro. Cannula""]",43,3,"[""Hydro. Cannula""]",1,1,False
+train,train25,7328,7094,7234,Phacoemulsification,,"[""I/A Handpiece""]",72,5,"[""I/A Handpiece""]",1,1,False
+train,train25,8671,8437,8577,Viscodilatation,,"[""Visc. Cannula""]",302,5,"[""Visc. Cannula""]",1,1,False
+train,train25,11158,10924,11064,OVD Aspiration,,"[""Ph. Handpiece""]",630,3,"[""Ph. Handpiece""]",1,1,False
+train,train25,12489,12255,12396,Viscodilatation,,"[""Visc. Cannula""]",100,5,"[""Visc. Cannula""]",1,1,False
+train,train25,12793,12559,12699,Positioning,,"[""Micromanipulator""]",274,4,"[""Micromanipulator""]",1,1,False
+train,train25,13698,13464,13604,Positioning,,"[""Visc. Cannula""]",59,3,"[""Visc. Cannula""]",1,1,False
+train,train25,13954,13721,13861,Positioning,,"[""Cap. Forceps""]",182,5,"[""Cap. Forceps""]",1,1,False
+train,train25,19986,19752,19892,Positioning,,"[""Rycroft Cannula""]",398,5,"[""Rycroft Cannula""]",1,1,False
+train,train25,20412,20178,20318,Positioning,,"[""Visc. Cannula""]",204,3,"[""Visc. Cannula""]",1,1,False
+train,train25,22957,22724,22864,Positioning,,"[""Rycroft Cannula""]",87,5,"[""Rycroft Cannula""]",1,1,False
+train,train25,23477,23243,23384,Sealing Control,,"[""Bonn Forceps""]",214,3,"[""Bonn Forceps""]",1,1,False
+train,train25,24324,24090,24230,Sealing Control,,"[""Bonn Forceps""]",116,3,"[""Bonn Forceps""]",1,1,False
+train,train25,25036,24802,24942,Positioning,,"[""Hydro. Cannula""]",411,3,"[""Hydro. Cannula""]",1,1,False
+train,train25,25053,24820,24960,Positioning,,"[""Micromanipulator""]",80,5,"[""Micromanipulator""]",1,1,False
+train,train25,26233,25999,26139,Sealing Control,,"[""Bonn Forceps""]",284,5,"[""Bonn Forceps""]",1,1,False
+train,train25,26770,26536,26676,Sealing Control,,"[""Bonn Forceps""]",60,3,"[""Bonn Forceps""]",1,1,False
+train,train25,27792,27558,27698,Positioning,,"[""Rycroft Cannula""]",83,5,"[""Rycroft Cannula""]",1,1,False
+train,train25,29094,28860,29000,Sealing Control,,"[""Bonn Forceps""]",303,5,"[""Bonn Forceps""]",1,1,False
+train,train25,30185,29952,30092,Positioning,,"[""Rycroft Cannula""]",148,3,"[""Rycroft Cannula""]",1,1,False
+train,train25,30904,30670,30810,Positioning,,"[""Micromanipulator""]",469,4,"[""Micromanipulator""]",1,1,False
+train,train25,31096,30863,31003,Positioning,,"[""Rycroft Cannula""]",56,4,"[""Rycroft Cannula""]",1,1,False
+train,train25,31417,31184,31324,Positioning,,"[""Rycroft Cannula""]",48,5,"[""Rycroft Cannula""]",1,1,False
+train,train25,32521,32287,32427,Sealing Control,,"[""Bonn Forceps""]",544,3,"[""Bonn Forceps""]",1,1,False
+train,train25,34004,33770,33910,Positioning,,"[""Rycroft Cannula""]",162,4,"[""Rycroft Cannula""]",1,1,False
+train,train25,37594,37361,37501,Suturing,,"[""Suture Needle""]",1453,4,"[""Suture Needle""]",1,1,False
+train,train25,37606,37373,37513,Suturing,,"[""Bonn Forceps""]",787,5,"[""Bonn Forceps""]",1,1,False
+train,train25,38021,37787,37927,Suturing,,"[""Secondary Knife""]",5849,3,"[""Secondary Knife""]",1,1,False
+train,train25,38441,38207,38348,Suturing,,"[""Bonn Forceps""]",49,3,"[""Bonn Forceps""]",1,1,False
+train,train25,39112,38879,39019,Suturing,,"[""I/A Handpiece""]",2113,3,"[""I/A Handpiece""]",1,1,False
+train,train25,39842,39609,39749,Wound Hydratation,,"[""Rycroft Cannula""]",116,5,"[""Rycroft Cannula""]",1,1,False
+train,train25,40765,40531,40671,Idle,,"[""I/A Handpiece""]",272,3,"[""I/A Handpiece""]",1,1,False
+val,test01,847,613,753,Incision,,"[""Bonn Forceps""]",145,5,"[""Bonn Forceps""]",1,1,False
+val,test01,1477,1243,1383,Viscodilatation,,"[""Visc. Cannula""]",105,4,"[""Visc. Cannula""]",1,1,False
+val,test01,2889,2655,2795,Capsulorhexis,,"[""Hydro. Cannula""]",351,3,"[""Hydro. Cannula""]",1,1,False
+val,test01,2906,2673,2813,Capsulorhexis,,"[""Cap. Forceps""]",498,5,"[""Cap. Forceps""]",1,1,False
+val,test01,2930,2696,2836,Capsulorhexis,,"[""Micromanipulator""]",233,3,"[""Micromanipulator""]",1,1,False
+val,test01,3641,3408,3548,Nucleus Breaking,Stop and Chop,"[""Ph. Handpiece""]",146,5,"[""Ph. Handpiece""]",1,1,False
+val,test01,3863,3630,3770,Nucleus Breaking,Stop and Chop,"[""Hydro. Cannula""]",58,3,"[""Hydro. Cannula""]",1,1,False
+val,test01,6162,5929,6069,Phacoemulsification,,"[""Rycroft Cannula""]",77,4,"[""Rycroft Cannula""]",1,1,False
+val,test01,6570,6337,6477,Idle,,"[""Rycroft Cannula""]",59,5,"[""Rycroft Cannula""]",1,1,False
+val,test01,7323,7090,7230,Idle,,"[""Micromanipulator""]",128,3,"[""Micromanipulator""]",1,1,False
+val,test01,7720,7486,7626,Irrigation/Aspiration,,"[""Ph. Handpiece""]",65,4,"[""Ph. Handpiece""]",1,1,False
+val,test01,9173,8939,9079,Irrigation/Aspiration,,"[""Visc. Cannula""]",1074,3,"[""Visc. Cannula""]",1,1,False
+val,test01,11617,11384,11524,Viscodilatation,,"[""Visc. Cannula""]",147,3,"[""Visc. Cannula""]",1,1,False
+val,test01,13648,13414,13554,Preparing Implant,,"[""Primary Knife""]",119,4,"[""Primary Knife""]",1,1,False
+val,test01,13659,13426,13566,Preparing Implant,,"[""Lens Injector""]",1691,4,"[""Lens Injector""]",1,1,False
+val,test01,14062,13829,13969,Preparing Implant,,"[""Suture Needle""]",196,3,"[""Suture Needle""]",1,1,False
+val,test01,14996,14762,14902,Idle,,"[""I/A Handpiece""]",42,3,"[""I/A Handpiece""]",1,1,False
+val,test01,15223,14990,15130,Viscodilatation,,"[""Visc. Cannula""]",269,5,"[""Visc. Cannula""]",1,1,False
+val,test01,16285,16052,16192,OVD Aspiration,,"[""Cap. Forceps""]",78,3,"[""Cap. Forceps""]",1,1,False
+val,test01,16303,16069,16209,OVD Aspiration,,"[""Ph. Handpiece""]",106,3,"[""Ph. Handpiece""]",1,1,False
+val,test01,22470,22236,22377,Idle,,"[""Bonn Forceps""]",470,3,"[""Bonn Forceps""]",1,1,False
+val,test07,567,333,473,Incision,,"[""Suture Needle""]",97,3,"[""Suture Needle""]",1,1,False
+val,test07,882,649,789,Viscodilatation,,"[""Visc. Cannula""]",96,5,"[""Visc. Cannula""]",1,1,False
+val,test07,981,748,888,Idle,,"[""Hydro. Cannula""]",75,3,"[""Hydro. Cannula""]",1,1,False
+val,test07,1127,894,1034,Capsulorhexis,,"[""Cap. Cystotome""]",94,5,"[""Cap. Cystotome""]",1,1,False
+val,test07,2295,2061,2202,Capsulorhexis,,"[""Cap. Forceps""]",393,5,"[""Cap. Forceps""]",1,1,False
+val,test07,2581,2348,2488,Capsulorhexis,,"[""Ph. Handpiece""]",167,3,"[""Ph. Handpiece""]",1,1,False
+val,test07,3334,3101,3241,Nucleus Breaking,Stop and Chop,"[""Ph. Handpiece""]",118,5,"[""Ph. Handpiece""]",1,1,False
+val,test07,3632,3398,3539,Nucleus Breaking,Stop and Chop,"[""Micromanipulator""]",181,5,"[""Micromanipulator""]",1,1,False
+val,test07,5319,5086,5226,Idle,,"[""I/A Handpiece""]",394,3,"[""I/A Handpiece""]",1,1,False
+val,test07,9225,8992,9132,Manual Aspiration,,"[""Rycroft Cannula""]",1099,3,"[""Rycroft Cannula""]",1,1,False
+val,test07,12145,11911,12051,Irrigation/Aspiration,,"[""I/A Handpiece""]",147,5,"[""I/A Handpiece""]",1,1,False
+val,test07,14223,13989,14130,Incision,,"[""Primary Knife""]",143,4,"[""Primary Knife""]",1,1,False
+val,test07,14252,14019,14159,Incision,,"[""Micromanipulator""]",90,3,"[""Micromanipulator""]",1,1,False
+val,test07,14854,14620,14760,Preparing Implant,,"[""Lens Injector""]",931,4,"[""Lens Injector""]",1,1,False
+val,test07,14859,14626,14766,Preparing Implant,,"[""Micromanipulator""]",100,3,"[""Micromanipulator""]",1,1,False
+val,test07,14894,14661,14801,Preparing Implant,,"[""Primary Knife""]",87,4,"[""Primary Knife""]",1,1,False
+val,test07,16021,15788,15928,Implantation,,"[""Suture Needle""]",131,3,"[""Suture Needle""]",1,1,False
+val,test07,16085,15852,15992,Implantation,,"[""Secondary Knife""]",1172,3,"[""Secondary Knife""]",1,1,False
+val,test07,16617,16383,16523,Implantation,,"[""Suture Needle""]",89,3,"[""Suture Needle""]",1,1,False
+val,test07,17206,16973,17113,Idle,,"[""Ph. Handpiece""]",1145,5,"[""Ph. Handpiece""]",1,1,False
+val,test07,17236,17002,17142,Idle,,"[""I/A Handpiece""]",100,3,"[""I/A Handpiece""]",1,1,False
+val,test07,17563,17329,17469,Positioning,,"[""I/A Handpiece""]",44,4,"[""I/A Handpiece""]",1,1,False
+val,test07,17855,17621,17761,Positioning,,"[""Micromanipulator""]",40,5,"[""Micromanipulator""]",1,1,False
+val,test07,21153,20920,21060,Vitrectomy,,"[""I/A Handpiece""]",122,3,"[""I/A Handpiece""]",1,1,False
+val,test07,22228,21994,22134,Idle,,"[""I/A Handpiece""]",90,3,"[""I/A Handpiece""]",1,1,False
+val,test07,24867,24633,24773,Suturing,,"[""Bonn Forceps""]",255,3,"[""Bonn Forceps""]",1,1,False
+val,test07,24872,24639,24779,Suturing,,"[""Micromanipulator""]",157,3,"[""Micromanipulator""]",1,1,False
+val,test07,25842,25608,25748,Suturing,,"[""Visc. Cannula""]",48,3,"[""Visc. Cannula""]",1,1,False
+val,test07,26764,26531,26671,Suturing,,"[""Bonn Forceps""]",189,5,"[""Bonn Forceps""]",1,1,False
+val,test07,26817,26583,26723,Suturing,,"[""Cap. Forceps""]",66,3,"[""Cap. Forceps""]",1,1,False
+val,test07,28878,28644,28784,Suturing,,"[""Cap. Forceps""]",45,3,"[""Cap. Forceps""]",1,1,False
+val,test07,30255,30022,30162,Wound Hydratation,,"[""Visc. Cannula""]",77,3,"[""Visc. Cannula""]",1,1,False
+val,test14,234,1,141,Incision,,"[""Primary Knife""]",40,5,"[""Primary Knife""]",1,1,False
+val,test14,368,135,275,Incision,,"[""Bonn Forceps""]",63,5,"[""Bonn Forceps""]",1,1,False
+val,test14,578,345,485,Viscodilatation,,"[""Visc. Cannula""]",99,5,"[""Visc. Cannula""]",1,1,False
+val,test14,1553,1320,1460,Capsulorhexis,,"[""Bonn Forceps""]",76,3,"[""Bonn Forceps""]",1,1,False
+val,test14,2125,1892,2032,Capsulorhexis,,"[""Cap. Forceps""]",364,5,"[""Cap. Forceps""]",1,1,False
+val,test14,2983,2750,2890,Idle,,"[""Ph. Handpiece""]",182,5,"[""Ph. Handpiece""]",1,1,False
+val,test14,7460,7226,7366,Idle,,"[""Lens Injector""]",1278,4,"[""Lens Injector""]",1,1,False
+val,test14,8691,8458,8598,Implantation,,"[""Bonn Forceps""]",216,3,"[""Bonn Forceps""]",1,1,False
+val,test14,9298,9065,9205,OVD Aspiration,,"[""I/A Handpiece""]",68,5,"[""I/A Handpiece""]",1,1,False
+val,test14,10325,10092,10232,Idle,,"[""Micromanipulator""]",51,4,"[""Micromanipulator""]",1,1,False
+val,test16,392,158,298,Incision,,"[""Secondary Knife""]",67,5,"[""Secondary Knife""]",1,1,False
+val,test16,742,508,649,Incision,,"[""Primary Knife""]",127,4,"[""Primary Knife""]",1,1,False
+val,test16,754,520,660,Incision,,"[""Bonn Forceps""]",45,5,"[""Bonn Forceps""]",1,1,False
+val,test16,1110,876,1016,Viscodilatation,,"[""Visc. Cannula""]",190,5,"[""Visc. Cannula""]",1,1,False
+val,test16,1232,999,1139,Idle,,"[""Rycroft Cannula""]",126,3,"[""Rycroft Cannula""]",1,1,False
+val,test16,1454,1221,1361,Capsulorhexis,,"[""Cap. Cystotome""]",249,5,"[""Cap. Cystotome""]",1,1,False
+val,test16,2383,2149,2289,Idle,,"[""Hydro. Cannula""]",343,3,"[""Hydro. Cannula""]",1,1,False
+val,test16,3077,2844,2984,Nucleus Breaking,Divide and Conquer,"[""Ph. Handpiece""]",55,5,"[""Ph. Handpiece""]",1,1,False
+val,test16,5074,4841,4981,Phacoemulsification,,"[""Rycroft Cannula""]",233,5,"[""Rycroft Cannula""]",1,1,False
+val,test16,6446,6213,6353,Irrigation/Aspiration,,"[""I/A Handpiece""]",974,3,"[""I/A Handpiece""]",1,1,False
+val,test16,7515,7281,7421,Irrigation/Aspiration,,"[""Micromanipulator""]",86,3,"[""Micromanipulator""]",1,1,False
+val,test16,9809,9576,9716,Viscodilatation,,"[""Visc. Cannula""]",42,4,"[""Visc. Cannula""]",1,1,False
+val,test16,10463,10229,10370,Preparing Implant,,"[""Lens Injector""]",155,5,"[""Lens Injector""]",1,1,False
+val,test16,10469,10235,10375,Preparing Implant,,"[""Suture Needle""]",1793,3,"[""Suture Needle""]",1,1,False
+val,test16,10475,10241,10381,Preparing Implant,,"[""Primary Knife""]",153,3,"[""Primary Knife""]",1,1,False
+val,test16,11181,10948,11088,Incision,,"[""Primary Knife""]",73,5,"[""Primary Knife""]",1,1,False
+val,test16,11228,10994,11134,Incision,,"[""Suture Needle""]",81,3,"[""Suture Needle""]",1,1,False
+val,test16,12285,12051,12191,Preparing Implant,,"[""Lens Injector""]",73,3,"[""Lens Injector""]",1,1,False
+val,test16,12290,12057,12197,Preparing Implant,,"[""Bonn Forceps""]",266,3,"[""Bonn Forceps""]",1,1,False
+val,test16,12933,12699,12839,Viscodilatation,,"[""Visc. Cannula""]",135,5,"[""Visc. Cannula""]",1,1,False
+val,test16,13248,13014,13155,Preparing Implant,,"[""Lens Injector""]",131,5,"[""Lens Injector""]",1,1,False
+val,test16,14229,13995,14135,Preparing Implant,,"[""Primary Knife""]",90,3,"[""Primary Knife""]",1,1,False
+val,test16,14573,14340,14480,Implantation,,"[""Micromanipulator""]",217,4,"[""Micromanipulator""]",1,1,False
+val,test16,14894,14661,14801,Implantation,,"[""Suture Needle""]",104,3,"[""Suture Needle""]",1,1,False
+val,test16,14935,14702,14842,Idle,,"[""Primary Knife""]",63,3,"[""Primary Knife""]",1,1,False
+val,test16,14988,14754,14894,Idle,,"[""Visc. Cannula""]",88,3,"[""Visc. Cannula""]",1,1,False
+val,test16,15519,15286,15426,Positioning,,"[""Rycroft Cannula""]",67,3,"[""Rycroft Cannula""]",1,1,False
+val,test16,15823,15589,15729,OVD Aspiration,,"[""I/A Handpiece""]",176,5,"[""I/A Handpiece""]",1,1,False
+val,test16,16897,16663,16804,Suturing,,"[""Suture Needle""]",290,5,"[""Suture Needle""]",1,1,False
+val,test16,16909,16675,16815,Suturing,,"[""Bonn Forceps""]",401,5,"[""Bonn Forceps""]",1,1,False
+val,test16,17732,17498,17639,Suturing,,"[""Secondary Knife""]",50,5,"[""Secondary Knife""]",1,1,False
+val,test16,18001,17767,17907,Wound Hydratation,,"[""Rycroft Cannula""]",53,5,"[""Rycroft Cannula""]",1,1,False
+val,test16,18368,18135,18275,OVD Aspiration,,"[""I/A Handpiece""]",102,5,"[""I/A Handpiece""]",1,1,False
+val,test16,18543,18310,18450,OVD Aspiration,,"[""Micromanipulator""]",54,3,"[""Micromanipulator""]",1,1,False
+val,test19,526,293,433,Idle,,"[""Bonn Forceps""]",90,5,"[""Bonn Forceps""]",1,1,False
+val,test19,532,298,439,Idle,,"[""Secondary Knife""]",91,3,"[""Secondary Knife""]",1,1,False
+val,test19,748,514,655,Incision,,"[""I/A Handpiece""]",42,4,"[""I/A Handpiece""]",1,1,False
+val,test19,1163,929,1069,Incision,,"[""Primary Knife""]",199,4,"[""Primary Knife""]",1,1,False
+val,test19,1537,1303,1443,Viscodilatation,,"[""Visc. Cannula""]",263,5,"[""Visc. Cannula""]",1,1,False
+val,test19,2354,2121,2261,Implant Ejection,,"[""Cap. Forceps""]",309,5,"[""Cap. Forceps""]",1,1,False
+val,test19,2880,2646,2786,Viscodilatation,,"[""Visc. Cannula""]",69,4,"[""Visc. Cannula""]",1,1,False
+val,test19,3067,2833,2973,Implant Ejection,,"[""Cap. Forceps""]",54,4,"[""Cap. Forceps""]",1,1,False
+val,test19,3078,2845,2985,Implant Ejection,,"[""Secondary Knife""]",57,4,"[""Secondary Knife""]",1,1,False
+val,test19,3516,3283,3423,Implant Ejection,,"[""Ph. Handpiece""]",46,3,"[""Ph. Handpiece""]",1,1,False
+val,test19,3697,3464,3604,Viscodilatation,,"[""Visc. Cannula""]",101,5,"[""Visc. Cannula""]",1,1,False
+val,test19,3896,3662,3803,Implant Ejection,,"[""Cap. Forceps""]",51,4,"[""Cap. Forceps""]",1,1,False
+val,test19,4200,3966,4106,Implant Ejection,,"[""Primary Knife""]",47,3,"[""Primary Knife""]",1,1,False
+val,test19,5047,4813,4953,Implant Ejection,,"[""Secondary Knife""]",49,3,"[""Secondary Knife""]",1,1,False
+val,test19,5356,5122,5263,Implant Ejection,,"[""Bonn Forceps""]",244,5,"[""Bonn Forceps""]",1,1,False
+val,test19,6197,5964,6104,Idle,,"[""Hydro. Cannula""]",114,4,"[""Hydro. Cannula""]",1,1,False
+val,test19,6396,6162,6302,Capsulorhexis,,"[""Cap. Cystotome""]",44,5,"[""Cap. Cystotome""]",1,1,False
+val,test19,7126,6892,7032,Capsulorhexis,,"[""Hydro. Cannula""]",125,4,"[""Hydro. Cannula""]",1,1,False
+val,test19,7914,7681,7821,Nucleus Breaking,Divide and Conquer,"[""Ph. Handpiece""]",53,5,"[""Ph. Handpiece""]",1,1,False
+val,test19,8358,8124,8265,Nucleus Breaking,Divide and Conquer,"[""Rycroft Cannula""]",59,3,"[""Rycroft Cannula""]",1,1,False
+val,test19,9211,8977,9117,Phacoemulsification,,"[""Rycroft Cannula""]",83,3,"[""Rycroft Cannula""]",1,1,False
+val,test19,9935,9701,9842,Phacoemulsification,,"[""Rycroft Cannula""]",107,4,"[""Rycroft Cannula""]",1,1,False
+val,test19,11313,11080,11220,Idle,,"[""Rycroft Cannula""]",72,3,"[""Rycroft Cannula""]",1,1,False
+val,test19,12598,12365,12505,Irrigation/Aspiration,,"[""Micromanipulator""]",58,3,"[""Micromanipulator""]",1,1,False
+val,test19,14426,14193,14333,Viscodilatation,,"[""Visc. Cannula""]",77,5,"[""Visc. Cannula""]",1,1,False
+val,test19,15729,15495,15635,Preparing Implant,,"[""Lens Injector""]",256,3,"[""Lens Injector""]",1,1,False
+val,test19,17148,16914,17054,OVD Aspiration,,"[""I/A Handpiece""]",151,5,"[""I/A Handpiece""]",1,1,False
+val,test19,19215,18982,19122,Suturing,,"[""Suture Needle""]",531,4,"[""Suture Needle""]",1,1,False
+val,test19,19227,18993,19134,Suturing,,"[""Bonn Forceps""]",237,5,"[""Bonn Forceps""]",1,1,False
+val,test19,20272,20039,20179,Suturing,,"[""Primary Knife""]",634,3,"[""Primary Knife""]",1,1,False
+val,test19,20389,20156,20296,Suturing,,"[""Visc. Cannula""]",61,3,"[""Visc. Cannula""]",1,1,False
+val,test19,20816,20582,20722,Suturing,,"[""Lens Injector""]",41,4,"[""Lens Injector""]",1,1,False
+test,test02,841,608,748,Incision,,"[""I/A Handpiece""]",57,3,"[""I/A Handpiece""]",1,1,False
+test,test02,1139,905,1046,Incision,,"[""Rycroft Cannula""]",104,3,"[""Rycroft Cannula""]",1,1,False
+test,test02,1145,911,1051,Incision,,"[""Bonn Forceps""]",163,5,"[""Bonn Forceps""]",1,1,False
+test,test02,2009,1775,1916,Viscodilatation,,"[""Visc. Cannula""]",344,5,"[""Visc. Cannula""]",1,1,False
+test,test02,2365,2132,2272,Idle,,"[""Bonn Forceps""]",101,3,"[""Bonn Forceps""]",1,1,False
+test,test02,2400,2167,2307,Capsulorhexis,,"[""Secondary Knife""]",180,4,"[""Secondary Knife""]",1,1,False
+test,test02,3860,3626,3766,Capsulorhexis,,"[""Rycroft Cannula""]",248,3,"[""Rycroft Cannula""]",1,1,False
+test,test02,4017,3784,3924,Capsulorhexis,,"[""Ph. Handpiece""]",41,3,"[""Ph. Handpiece""]",1,1,False
+test,test02,4041,3807,3947,Capsulorhexis,,"[""Cap. Forceps""]",63,5,"[""Cap. Forceps""]",1,1,False
+test,test02,4852,4619,4759,Hydrodissetion,,"[""Hydro. Cannula""]",139,5,"[""Hydro. Cannula""]",1,1,False
+test,test02,6008,5775,5915,Hydrodissetion,,"[""Hydro. Cannula""]",161,5,"[""Hydro. Cannula""]",1,1,False
+test,test02,6084,5851,5991,Hydrodissetion,,"[""Cap. Forceps""]",129,3,"[""Cap. Forceps""]",1,1,False
+test,test02,7550,7316,7456,Nucleus Breaking,Divide and Conquer,"[""Micromanipulator""]",46,5,"[""Micromanipulator""]",1,1,False
+test,test02,9961,9727,9868,Nucleus Breaking,Divide and Conquer,"[""Micromanipulator""]",44,4,"[""Micromanipulator""]",1,1,False
+test,test02,13032,12798,12939,Nucleus Breaking,Divide and Conquer,"[""Visc. Cannula""]",1412,5,"[""Visc. Cannula""]",1,1,False
+test,test02,14124,13890,14030,Nucleus Breaking,Divide and Conquer,"[""Ph. Handpiece""]",51,5,"[""Ph. Handpiece""]",1,1,False
+test,test02,18292,18059,18199,Phacoemulsification,,"[""Visc. Cannula""]",735,5,"[""Visc. Cannula""]",1,1,False
+test,test02,18748,18514,18654,Phacoemulsification,,"[""Micromanipulator""]",150,3,"[""Micromanipulator""]",1,1,False
+test,test02,18976,18742,18882,Phacoemulsification,,"[""Ph. Handpiece""]",68,3,"[""Ph. Handpiece""]",1,1,False
+test,test02,20318,20085,20225,Phacoemulsification,,"[""Visc. Cannula""]",278,5,"[""Visc. Cannula""]",1,1,False
+test,test02,21358,21124,21264,Phacoemulsification,,"[""Visc. Cannula""]",103,5,"[""Visc. Cannula""]",1,1,False
+test,test02,22356,22122,22263,Idle,,"[""I/A Handpiece""]",83,3,"[""I/A Handpiece""]",1,1,False
+test,test02,23687,23454,23594,Idle,,"[""I/A Handpiece""]",224,3,"[""I/A Handpiece""]",1,1,False
+test,test02,23938,23705,23845,Vitrectomy,,"[""Micromanipulator""]",354,5,"[""Micromanipulator""]",1,1,False
+test,test02,27015,26782,26922,Phacoemulsification,,"[""Ph. Handpiece""]",160,4,"[""Ph. Handpiece""]",1,1,False
+test,test02,27599,27365,27506,Phacoemulsification,,"[""Micromanipulator""]",94,4,"[""Micromanipulator""]",1,1,False
+test,test02,30612,30378,30518,Viscodilatation,,"[""Visc. Cannula""]",1099,5,"[""Visc. Cannula""]",1,1,False
+test,test02,31026,30793,30933,Viscodilatation,,"[""I/A Handpiece""]",41,3,"[""I/A Handpiece""]",1,1,False
+test,test02,32170,31937,32077,Irrigation/Aspiration,,"[""Micromanipulator""]",56,3,"[""Micromanipulator""]",1,1,False
+test,test02,32182,31949,32089,Irrigation/Aspiration,,"[""I/A Handpiece""]",58,4,"[""I/A Handpiece""]",1,1,False
+test,test02,32404,32170,32311,Irrigation/Aspiration,,"[""Rycroft Cannula""]",46,4,"[""Rycroft Cannula""]",1,1,False
+test,test02,35551,35317,35458,Irrigation/Aspiration,,"[""I/A Handpiece""]",72,3,"[""I/A Handpiece""]",1,1,False
+test,test02,36187,35954,36094,Idle,,"[""Rycroft Cannula""]",83,3,"[""Rycroft Cannula""]",1,1,False
+test,test02,36462,36228,36368,Viscodilatation,,"[""I/A Handpiece""]",42,3,"[""I/A Handpiece""]",1,1,False
+test,test02,36473,36240,36380,Viscodilatation,,"[""Visc. Cannula""]",851,5,"[""Visc. Cannula""]",1,1,False
+test,test02,37046,36812,36952,Incision,,"[""Primary Knife""]",5586,5,"[""Primary Knife""]",1,1,False
+test,test02,37180,36946,37086,Incision,,"[""Lens Injector""]",62,3,"[""Lens Injector""]",1,1,False
+test,test02,37635,37402,37542,Viscodilatation,,"[""Visc. Cannula""]",144,5,"[""Visc. Cannula""]",1,1,False
+test,test02,37670,37437,37577,Viscodilatation,,"[""I/A Handpiece""]",69,3,"[""I/A Handpiece""]",1,1,False
+test,test02,39177,38943,39083,Idle,,"[""Rycroft Cannula""]",155,3,"[""Rycroft Cannula""]",1,1,False
+test,test02,40519,40286,40426,Idle,,"[""Suture Needle""]",258,3,"[""Suture Needle""]",1,1,False
+test,test02,41010,40776,40916,Preparing Implant,,"[""Lens Injector""]",473,3,"[""Lens Injector""]",1,1,False
+test,test02,41115,40881,41022,Preparing Implant,,"[""Cap. Forceps""]",5990,5,"[""Cap. Forceps""]",1,1,False
+test,test02,41173,40940,41080,Preparing Implant,,"[""Primary Knife""]",589,3,"[""Primary Knife""]",1,1,False
+test,test02,42248,42014,42154,Implantation,,"[""Bonn Forceps""]",122,5,"[""Bonn Forceps""]",1,1,False
+test,test02,42306,42073,42213,Implantation,,"[""Secondary Knife""]",172,3,"[""Secondary Knife""]",1,1,False
+test,test02,42376,42143,42283,Implantation,,"[""Micromanipulator""]",42,5,"[""Micromanipulator""]",1,1,False
+test,test02,43141,42907,43048,Idle,,"[""Primary Knife""]",277,3,"[""Primary Knife""]",1,1,False
+test,test02,43170,42937,43077,Idle,,"[""Suture Needle""]",57,3,"[""Suture Needle""]",1,1,False
+test,test02,43182,42948,43088,Idle,,"[""Rycroft Cannula""]",60,3,"[""Rycroft Cannula""]",1,1,False
+test,test02,43380,43147,43287,Positioning,,"[""I/A Handpiece""]",41,4,"[""I/A Handpiece""]",1,1,False
+test,test02,43526,43293,43433,Positioning,,"[""Visc. Cannula""]",957,5,"[""Visc. Cannula""]",1,1,False
+test,test02,44116,43882,44023,Positioning,,"[""Primary Knife""]",163,4,"[""Primary Knife""]",1,1,False
+test,test02,44536,44303,44443,Positioning,,"[""Hydro. Cannula""]",1182,5,"[""Hydro. Cannula""]",1,1,False
+test,test02,45126,44892,45033,Sealing Control,,"[""Rycroft Cannula""]",54,3,"[""Rycroft Cannula""]",1,1,False
+test,test02,45523,45290,45430,Idle,,"[""Rycroft Cannula""]",57,3,"[""Rycroft Cannula""]",1,1,False
+test,test02,46323,46089,46229,OVD Aspiration,,"[""I/A Handpiece""]",259,5,"[""I/A Handpiece""]",1,1,False
+test,test02,46924,46691,46831,Idle,,"[""Rycroft Cannula""]",136,3,"[""Rycroft Cannula""]",1,1,False
+test,test02,48810,48577,48717,Idle,,"[""Micromanipulator""]",86,3,"[""Micromanipulator""]",1,1,False
+test,test02,49522,49289,49429,Idle,,"[""Secondary Knife""]",769,5,"[""Secondary Knife""]",1,1,False
+test,test02,49867,49633,49773,Idle,,"[""Hydro. Cannula""]",893,5,"[""Hydro. Cannula""]",1,1,False
+test,test02,50089,49855,49995,Idle,,"[""Rycroft Cannula""]",42,3,"[""Rycroft Cannula""]",1,1,False
+test,test02,50941,50708,50848,Suturing,,"[""Suture Needle""]",360,4,"[""Suture Needle""]",1,1,False
+test,test02,50947,50713,50854,Suturing,,"[""Bonn Forceps""]",162,3,"[""Bonn Forceps""]",1,1,False
+test,test02,52202,51969,52109,Suturing,,"[""I/A Handpiece""]",159,3,"[""I/A Handpiece""]",1,1,False
+test,test02,52377,52144,52284,Suturing,,"[""Cap. Forceps""]",79,4,"[""Cap. Forceps""]",1,1,False
+test,test02,53814,53580,53720,Wound Hydratation,,"[""I/A Handpiece""]",82,4,"[""I/A Handpiece""]",1,1,False
+test,test03,246,12,152,Incision,,"[""Secondary Knife""]",42,4,"[""Secondary Knife""]",1,1,False
+test,test03,252,18,158,Incision,,"[""Visc. Cannula""]",43,3,"[""Visc. Cannula""]",1,1,False
+test,test03,275,41,181,Incision,,"[""Micromanipulator""]",47,3,"[""Micromanipulator""]",1,1,False
+test,test03,584,351,491,Incision,,"[""Primary Knife""]",100,5,"[""Primary Knife""]",1,1,False
+test,test03,9616,9383,9523,Idle,,"[""Micromanipulator""]",83,3,"[""Micromanipulator""]",1,1,False
+test,test03,9657,9424,9564,Implantation,,"[""Visc. Cannula""]",90,3,"[""Visc. Cannula""]",1,1,False
+test,test03,9681,9447,9587,Implantation,,"[""Lens Injector""]",1658,5,"[""Lens Injector""]",1,1,False
+test,test03,9949,9716,9856,Implantation,,"[""Micromanipulator""]",54,4,"[""Micromanipulator""]",1,1,False
+test,test03,12185,11952,12092,OVD Aspiration,,"[""Micromanipulator""]",48,4,"[""Micromanipulator""]",1,1,False
+test,test03,14200,13966,14106,Wound Hydratation,,"[""Rycroft Cannula""]",108,3,"[""Rycroft Cannula""]",1,1,False
+test,test04,502,269,409,Incision,,"[""Secondary Knife""]",86,4,"[""Secondary Knife""]",1,1,False
+test,test04,508,275,415,Incision,,"[""Bonn Forceps""]",59,5,"[""Bonn Forceps""]",1,1,False
+test,test04,1220,987,1127,Incision,,"[""Secondary Knife""]",94,3,"[""Secondary Knife""]",1,1,False
+test,test04,1460,1226,1366,Incision,,"[""Primary Knife""]",250,5,"[""Primary Knife""]",1,1,False
+test,test04,4343,4109,4250,Nucleus Breaking,Stop and Chop,"[""Micromanipulator""]",173,4,"[""Micromanipulator""]",1,1,False
+test,test04,7314,7080,7220,Irrigation/Aspiration,,"[""I/A Handpiece""]",952,5,"[""I/A Handpiece""]",1,1,False
+test,test04,9286,9053,9193,Viscodilatation,,"[""Visc. Cannula""]",49,5,"[""Visc. Cannula""]",1,1,False
+test,test04,10074,9841,9981,Preparing Implant,,"[""Lens Injector""]",1726,3,"[""Lens Injector""]",1,1,False
+test,test04,10092,9858,9999,Preparing Implant,,"[""Bonn Forceps""]",1621,4,"[""Bonn Forceps""]",1,1,False
+test,test04,10121,9888,10028,Preparing Implant,,"[""Cap. Forceps""]",1485,3,"[""Cap. Forceps""]",1,1,False
+test,test04,10454,10220,10360,Preparing Implant,,"[""Cap. Forceps""]",52,5,"[""Cap. Forceps""]",1,1,False
+test,test04,11078,10845,10985,Implantation,,"[""Lens Injector""]",67,3,"[""Lens Injector""]",1,1,False
+test,test04,11195,10962,11102,Implantation,,"[""Micromanipulator""]",156,5,"[""Micromanipulator""]",1,1,False
+test,test04,11213,10979,11119,Implantation,,"[""Rycroft Cannula""]",134,3,"[""Rycroft Cannula""]",1,1,False
+test,test04,12030,11796,11936,OVD Aspiration,,"[""I/A Handpiece""]",51,5,"[""I/A Handpiece""]",1,1,False
+test,test04,13454,13220,13360,Idle,,"[""Rycroft Cannula""]",268,5,"[""Rycroft Cannula""]",1,1,False
+test,test05,724,491,631,Incision,,"[""Secondary Knife""]",124,5,"[""Secondary Knife""]",1,1,False
+test,test05,1501,1267,1407,Capsulorhexis,,"[""Cap. Cystotome""]",70,5,"[""Cap. Cystotome""]",1,1,False
+test,test05,2621,2388,2528,Capsulorhexis,,"[""Cap. Forceps""]",449,5,"[""Cap. Forceps""]",1,1,False
+test,test05,2761,2528,2668,Capsulorhexis,,"[""Cap. Cystotome""]",47,4,"[""Cap. Cystotome""]",1,1,False
+test,test05,2925,2691,2831,Hydrodissetion,,"[""Hydro. Cannula""]",50,4,"[""Hydro. Cannula""]",1,1,False
+test,test05,8178,7944,8084,Idle,,"[""Visc. Cannula""]",327,4,"[""Visc. Cannula""]",1,1,False
+test,test05,9269,9036,9176,Preparing Implant,,"[""Bonn Forceps""]",1445,3,"[""Bonn Forceps""]",1,1,False
+test,test05,9275,9041,9181,Preparing Implant,,"[""Lens Injector""]",1589,5,"[""Lens Injector""]",1,1,False
+test,test05,9286,9053,9193,Preparing Implant,,"[""Suture Needle""]",1455,4,"[""Suture Needle""]",1,1,False
+test,test05,9298,9065,9205,Preparing Implant,,"[""Cap. Forceps""]",1109,3,"[""Cap. Forceps""]",1,1,False
+test,test05,10460,10226,10366,Implantation,,"[""Primary Knife""]",117,4,"[""Primary Knife""]",1,1,False
+test,test05,10740,10506,10646,Idle,,"[""Micromanipulator""]",95,4,"[""Micromanipulator""]",1,1,False
+test,test05,11183,10950,11090,OVD Aspiration,,"[""I/A Handpiece""]",230,4,"[""I/A Handpiece""]",1,1,False
+test,test05,13144,12911,13051,Wound Hydratation,,"[""Rycroft Cannula""]",50,4,"[""Rycroft Cannula""]",1,1,False
+test,test05,13985,13751,13892,Idle,,"[""I/A Handpiece""]",295,3,"[""I/A Handpiece""]",1,1,False
+test,test06,374,141,281,Incision,,"[""Secondary Knife""]",64,3,"[""Secondary Knife""]",1,1,False
+test,test06,409,176,316,Incision,,"[""Bonn Forceps""]",70,5,"[""Bonn Forceps""]",1,1,False
+test,test06,1022,788,928,Incision,,"[""Primary Knife""]",175,5,"[""Primary Knife""]",1,1,False
+test,test06,1062,829,969,Incision,,"[""Bonn Forceps""]",85,3,"[""Bonn Forceps""]",1,1,False
+test,test06,1372,1138,1278,Viscodilatation,,"[""Visc. Cannula""]",60,5,"[""Visc. Cannula""]",1,1,False
+test,test06,1798,1564,1704,Capsulorhexis,,"[""Cap. Cystotome""]",73,5,"[""Cap. Cystotome""]",1,1,False
+test,test06,2912,2679,2819,Idle,,"[""Hydro. Cannula""]",396,4,"[""Hydro. Cannula""]",1,1,False
+test,test06,3519,3285,3425,Nucleus Breaking,Stop and Chop,"[""Ph. Handpiece""]",603,5,"[""Ph. Handpiece""]",1,1,False
+test,test06,4301,4067,4207,Nucleus Breaking,Stop and Chop,"[""Micromanipulator""]",124,4,"[""Micromanipulator""]",1,1,False
+test,test06,7358,7125,7265,Irrigation/Aspiration,,"[""I/A Handpiece""]",63,3,"[""I/A Handpiece""]",1,1,False
+test,test06,7761,7527,7667,Irrigation/Aspiration,,"[""Micromanipulator""]",130,3,"[""Micromanipulator""]",1,1,False
+test,test06,8356,8122,8262,Irrigation/Aspiration,,"[""Micromanipulator""]",99,5,"[""Micromanipulator""]",1,1,False
+test,test06,9902,9669,9809,Viscodilatation,,"[""Visc. Cannula""]",58,5,"[""Visc. Cannula""]",1,1,False
+test,test06,11209,10976,11116,Preparing Implant,,"[""Rycroft Cannula""]",224,5,"[""Rycroft Cannula""]",1,1,False
+test,test06,11314,11081,11221,Preparing Implant,,"[""Cap. Cystotome""]",1454,4,"[""Cap. Cystotome""]",1,1,False
+test,test06,12405,12172,12312,Idle,,"[""Lens Injector""]",85,3,"[""Lens Injector""]",1,1,False
+test,test06,13164,12930,13070,Implantation,,"[""Lens Injector""]",126,4,"[""Lens Injector""]",1,1,False
+test,test06,13397,13164,13304,Idle,,"[""Rycroft Cannula""]",100,3,"[""Rycroft Cannula""]",1,1,False
+test,test06,13560,13327,13467,Positioning,,"[""Micromanipulator""]",345,5,"[""Micromanipulator""]",1,1,False
+test,test06,14085,13852,13992,OVD Aspiration,,"[""I/A Handpiece""]",369,5,"[""I/A Handpiece""]",1,1,False
+test,test06,15293,15060,15200,Wound Hydratation,,"[""Rycroft Cannula""]",204,5,"[""Rycroft Cannula""]",1,1,False
+test,test08,2634,2400,2540,Hydrodissetion,,"[""Hydro. Cannula""]",451,3,"[""Hydro. Cannula""]",1,1,False
+test,test08,3661,3428,3568,Nucleus Breaking,Stop and Chop,"[""Bonn Forceps""]",435,5,"[""Bonn Forceps""]",1,1,False
+test,test08,4023,3790,3930,Nucleus Breaking,Stop and Chop,"[""Micromanipulator""]",54,4,"[""Micromanipulator""]",1,1,False
+test,test08,6586,6353,6493,Idle,,"[""Visc. Cannula""]",853,4,"[""Visc. Cannula""]",1,1,False
+test,test08,7947,7713,7853,Viscodilatation,,"[""Visc. Cannula""]",196,5,"[""Visc. Cannula""]",1,1,False
+test,test08,10194,9961,10101,OVD Aspiration,,"[""I/A Handpiece""]",138,5,"[""I/A Handpiece""]",1,1,False
+test,test08,10708,10475,10615,OVD Aspiration,,"[""Micromanipulator""]",100,5,"[""Micromanipulator""]",1,1,False
+test,test08,12331,12098,12238,Wound Hydratation,,"[""Rycroft Cannula""]",40,5,"[""Rycroft Cannula""]",1,1,False
+test,test08,13160,12927,13067,Sealing Control,,"[""Bonn Forceps""]",1621,3,"[""Bonn Forceps""]",1,1,False
+test,test09,754,520,660,Incision,,"[""Bonn Forceps""]",129,5,"[""Bonn Forceps""]",1,1,False
+test,test09,760,526,666,Incision,,"[""Secondary Knife""]",95,5,"[""Secondary Knife""]",1,1,False
+test,test09,1133,900,1040,Incision,,"[""Primary Knife""]",49,4,"[""Primary Knife""]",1,1,False
+test,test09,1635,1402,1542,Viscodilatation,,"[""Visc. Cannula""]",215,5,"[""Visc. Cannula""]",1,1,False
+test,test09,1758,1524,1664,Idle,,"[""Lens Injector""]",301,3,"[""Lens Injector""]",1,1,False
+test,test09,1898,1664,1805,Capsulorhexis,,"[""Cap. Cystotome""]",325,5,"[""Cap. Cystotome""]",1,1,False
+test,test09,2079,1845,1986,Idle,,"[""Primary Knife""]",44,3,"[""Primary Knife""]",1,1,False
+test,test09,2336,2102,2242,Viscodilatation,,"[""Primary Knife""]",40,4,"[""Primary Knife""]",1,1,False
+test,test09,2377,2143,2283,Idle,,"[""Lens Injector""]",98,4,"[""Lens Injector""]",1,1,False
+test,test09,3941,3708,3848,Capsulorhexis,,"[""Cap. Forceps""]",226,5,"[""Cap. Forceps""]",1,1,False
+test,test09,4012,3778,3918,Capsulorhexis,,"[""Ph. Handpiece""]",687,3,"[""Ph. Handpiece""]",1,1,False
+test,test09,4385,4152,4292,Capsulorhexis,,"[""Hydro. Cannula""]",58,4,"[""Hydro. Cannula""]",1,1,False
+test,test09,6977,6744,6884,Nucleus Breaking,Stop and Chop,"[""Micromanipulator""]",220,4,"[""Micromanipulator""]",1,1,False
+test,test09,10959,10726,10866,Irrigation/Aspiration,,"[""Micromanipulator""]",101,3,"[""Micromanipulator""]",1,1,False
+test,test09,13604,13371,13511,Viscodilatation,,"[""Visc. Cannula""]",536,5,"[""Visc. Cannula""]",1,1,False
+test,test09,14497,14264,14404,Preparing Implant,,"[""Lens Injector""]",1700,3,"[""Lens Injector""]",1,1,False
+test,test09,14515,14281,14422,Preparing Implant,,"[""Rycroft Cannula""]",104,3,"[""Rycroft Cannula""]",1,1,False
+test,test09,14521,14287,14427,Preparing Implant,,"[""Bonn Forceps""]",1683,3,"[""Bonn Forceps""]",1,1,False
+test,test09,14538,14305,14445,Preparing Implant,,"[""Micromanipulator""]",209,3,"[""Micromanipulator""]",1,1,False
+test,test09,15729,15496,15636,Idle,,"[""I/A Handpiece""]",323,5,"[""I/A Handpiece""]",1,1,False
+test,test09,15975,15741,15881,Implantation,,"[""Primary Knife""]",114,4,"[""Primary Knife""]",1,1,False
+test,test09,16815,16582,16722,Irrigation/Aspiration,,"[""I/A Handpiece""]",152,5,"[""I/A Handpiece""]",1,1,False
+test,test10,654,421,561,Incision,,"[""Secondary Knife""]",76,3,"[""Secondary Knife""]",1,1,False
+test,test10,672,438,579,Incision,,"[""Bonn Forceps""]",89,5,"[""Bonn Forceps""]",1,1,False
+test,test10,2108,1875,2015,Viscodilatation,,"[""Rycroft Cannula""]",224,3,"[""Rycroft Cannula""]",1,1,False
+test,test10,2114,1880,2021,Viscodilatation,,"[""Visc. Cannula""]",355,5,"[""Visc. Cannula""]",1,1,False
+test,test10,7059,6826,6966,Irrigation/Aspiration,,"[""I/A Handpiece""]",80,5,"[""I/A Handpiece""]",1,1,False
+test,test10,7520,7287,7427,Irrigation/Aspiration,,"[""I/A Handpiece""]",48,5,"[""I/A Handpiece""]",1,1,False
+test,test10,8163,7929,8069,Incision,,"[""Primary Knife""]",1053,5,"[""Primary Knife""]",1,1,False
+test,test10,9243,9009,9149,Irrigation/Aspiration,,"[""I/A Handpiece""]",103,5,"[""I/A Handpiece""]",1,1,False
+test,test10,11602,11368,11508,Preparing Implant,,"[""Lens Injector""]",617,5,"[""Lens Injector""]",1,1,False
+test,test10,12758,12524,12664,Implantation,,"[""Lens Injector""]",88,5,"[""Lens Injector""]",1,1,False
+test,test10,13044,12810,12950,Positioning,,"[""I/A Handpiece""]",60,3,"[""I/A Handpiece""]",1,1,False
+test,test10,13499,13266,13406,OVD Aspiration,,"[""I/A Handpiece""]",59,3,"[""I/A Handpiece""]",1,1,False
+test,test10,15478,15245,15385,Wound Hydratation,,"[""Rycroft Cannula""]",314,3,"[""Rycroft Cannula""]",1,1,False
+test,test11,935,701,841,Incision,,"[""Bonn Forceps""]",85,5,"[""Bonn Forceps""]",1,1,False
+test,test11,1121,888,1028,Viscodilatation,,"[""Visc. Cannula""]",146,5,"[""Visc. Cannula""]",1,1,False
+test,test11,3200,2966,3107,Nucleus Breaking,Stop and Chop,"[""Bonn Forceps""]",379,5,"[""Bonn Forceps""]",1,1,False
+test,test11,3212,2978,3118,Nucleus Breaking,Stop and Chop,"[""Micromanipulator""]",282,5,"[""Micromanipulator""]",1,1,False
+test,test11,3527,3293,3434,Incision,,"[""Primary Knife""]",433,5,"[""Primary Knife""]",1,1,False
+test,test11,4426,4193,4333,Incision,,"[""Primary Knife""]",136,5,"[""Primary Knife""]",1,1,False
+test,test11,4677,4444,4584,Nucleus Breaking,Stop and Chop,"[""Bonn Forceps""]",77,5,"[""Bonn Forceps""]",1,1,False
+test,test11,5080,4846,4987,Nucleus Breaking,Stop and Chop,"[""Micromanipulator""]",41,3,"[""Micromanipulator""]",1,1,False
+test,test11,9955,9722,9862,Viscodilatation,,"[""Visc. Cannula""]",291,5,"[""Visc. Cannula""]",1,1,False
+test,test11,10527,10294,10434,Preparing Implant,,"[""Lens Injector""]",131,5,"[""Lens Injector""]",1,1,False
+test,test11,10988,10755,10895,Preparing Implant,,"[""Cap. Forceps""]",67,3,"[""Cap. Forceps""]",1,1,False
+test,test11,11777,11543,11683,Idle,,"[""Hydro. Cannula""]",592,3,"[""Hydro. Cannula""]",1,1,False
+test,test11,12320,12086,12226,Positioning,,"[""Micromanipulator""]",60,4,"[""Micromanipulator""]",1,1,False
+test,test11,13861,13627,13768,Wound Hydratation,,"[""Rycroft Cannula""]",76,3,"[""Rycroft Cannula""]",1,1,False
+test,test12,479,246,386,Incision,,"[""Primary Knife""]",82,5,"[""Primary Knife""]",1,1,False
+test,test12,935,701,841,Capsulorhexis,,"[""Cap. Cystotome""]",160,5,"[""Cap. Cystotome""]",1,1,False
+test,test12,2307,2073,2213,Idle,,"[""Ph. Handpiece""]",96,5,"[""Ph. Handpiece""]",1,1,False
+test,test12,2546,2313,2453,Nucleus Breaking,Stop and Chop,"[""Bonn Forceps""]",436,5,"[""Bonn Forceps""]",1,1,False
+test,test12,7077,6843,6983,Viscodilatation,,"[""Visc. Cannula""]",165,4,"[""Visc. Cannula""]",1,1,False
+test,test12,7538,7304,7445,Preparing Implant,,"[""Lens Injector""]",106,5,"[""Lens Injector""]",1,1,False
+test,test12,7579,7345,7485,Preparing Implant,,"[""Bonn Forceps""]",853,3,"[""Bonn Forceps""]",1,1,False
+test,test12,8490,8256,8396,Implantation,,"[""Lens Injector""]",77,3,"[""Lens Injector""]",1,1,False
+test,test12,8840,8606,8747,Implantation,,"[""Rycroft Cannula""]",63,3,"[""Rycroft Cannula""]",1,1,False
+test,test12,9307,9073,9214,OVD Aspiration,,"[""I/A Handpiece""]",137,4,"[""I/A Handpiece""]",1,1,False
+test,test12,10019,9786,9926,OVD Aspiration,,"[""Micromanipulator""]",76,5,"[""Micromanipulator""]",1,1,False
+test,test12,10545,10311,10451,Idle,,"[""Rycroft Cannula""]",267,4,"[""Rycroft Cannula""]",1,1,False
+test,test12,11426,11193,11333,Wound Hydratation,,"[""Rycroft Cannula""]",49,5,"[""Rycroft Cannula""]",1,1,False
+test,test13,362,129,269,Toric Marking,,"[""Primary Knife""]",62,3,"[""Primary Knife""]",1,1,False
+test,test13,800,567,707,Incision,,"[""Bonn Forceps""]",137,5,"[""Bonn Forceps""]",1,1,False
+test,test13,1221,987,1127,Incision,,"[""Micromanipulator""]",209,4,"[""Micromanipulator""]",1,1,False
+test,test13,1238,1005,1145,Incision,,"[""Primary Knife""]",141,5,"[""Primary Knife""]",1,1,False
+test,test13,2925,2692,2832,Hydrodissetion,,"[""Hydro. Cannula""]",203,4,"[""Hydro. Cannula""]",1,1,False
+test,test13,6848,6615,6755,Irrigation/Aspiration,,"[""I/A Handpiece""]",961,3,"[""I/A Handpiece""]",1,1,False
+test,test13,6889,6656,6796,Irrigation/Aspiration,,"[""Hydro. Cannula""]",620,3,"[""Hydro. Cannula""]",1,1,False
+test,test13,9260,9026,9166,Viscodilatation,,"[""Visc. Cannula""]",1314,4,"[""Visc. Cannula""]",1,1,False
+test,test13,12231,11998,12138,Positioning,,"[""Micromanipulator""]",506,5,"[""Micromanipulator""]",1,1,False
+test,test13,13200,12967,13107,OVD Aspiration,,"[""I/A Handpiece""]",74,4,"[""I/A Handpiece""]",1,1,False
+test,test13,15629,15395,15535,Wound Hydratation,,"[""Rycroft Cannula""]",581,3,"[""Rycroft Cannula""]",1,1,False
+test,test15,421,187,327,Incision,,"[""Bonn Forceps""]",72,4,"[""Bonn Forceps""]",1,1,False
+test,test15,438,205,345,Incision,,"[""Secondary Knife""]",75,5,"[""Secondary Knife""]",1,1,False
+test,test15,981,748,888,Incision,,"[""Bonn Forceps""]",84,5,"[""Bonn Forceps""]",1,1,False
+test,test15,1220,987,1127,Viscodilatation,,"[""Visc. Cannula""]",126,5,"[""Visc. Cannula""]",1,1,False
+test,test15,7524,7290,7430,Phacoemulsification,,"[""Bonn Forceps""]",954,3,"[""Bonn Forceps""]",1,1,False
+test,test15,8131,7897,8037,Idle,,"[""I/A Handpiece""]",906,5,"[""I/A Handpiece""]",1,1,False
+test,test15,10536,10302,10442,Irrigation/Aspiration,,"[""Rycroft Cannula""]",399,3,"[""Rycroft Cannula""]",1,1,False
+test,test15,10798,10565,10705,Viscodilatation,,"[""Visc. Cannula""]",443,5,"[""Visc. Cannula""]",1,1,False
+test,test15,11580,11347,11487,Preparing Implant,,"[""Lens Injector""]",177,5,"[""Lens Injector""]",1,1,False
+test,test15,11884,11650,11790,Idle,,"[""I/A Handpiece""]",42,3,"[""I/A Handpiece""]",1,1,False
+test,test15,12146,11913,12053,Implantation,,"[""Lens Injector""]",47,4,"[""Lens Injector""]",1,1,False
+test,test15,12876,12643,12783,OVD Aspiration,,"[""Hydro. Cannula""]",208,4,"[""Hydro. Cannula""]",1,1,False
+test,test15,12882,12648,12788,OVD Aspiration,,"[""I/A Handpiece""]",47,5,"[""I/A Handpiece""]",1,1,False
+test,test17,392,158,298,Incision,,"[""Secondary Knife""]",67,4,"[""Secondary Knife""]",1,1,False
+test,test17,409,176,316,Incision,,"[""Bonn Forceps""]",70,5,"[""Bonn Forceps""]",1,1,False
+test,test17,812,579,719,Incision,,"[""Visc. Cannula""]",72,3,"[""Visc. Cannula""]",1,1,False
+test,test17,847,614,754,Incision,,"[""Primary Knife""]",145,5,"[""Primary Knife""]",1,1,False
+test,test17,853,619,760,Incision,,"[""Cap. Forceps""]",78,4,"[""Cap. Forceps""]",1,1,False
+test,test17,1921,1688,1828,Implant Ejection,,"[""Rycroft Cannula""]",150,3,"[""Rycroft Cannula""]",1,1,False
+test,test17,1933,1699,1840,Implant Ejection,,"[""Micromanipulator""]",186,3,"[""Micromanipulator""]",1,1,False
+test,test17,3323,3089,3229,Viscodilatation,,"[""Visc. Cannula""]",161,4,"[""Visc. Cannula""]",1,1,False
+test,test17,3667,3434,3574,Capsulorhexis,,"[""Cap. Cystotome""]",42,5,"[""Cap. Cystotome""]",1,1,False
+test,test17,7579,7345,7485,Idle,,"[""I/A Handpiece""]",232,4,"[""I/A Handpiece""]",1,1,False
+test,test17,9062,8828,8968,Viscodilatation,,"[""Visc. Cannula""]",925,5,"[""Visc. Cannula""]",1,1,False
+test,test17,10521,10288,10428,Implantation,,"[""Micromanipulator""]",393,3,"[""Micromanipulator""]",1,1,False
+test,test17,11024,10790,10930,Positioning,,"[""Rycroft Cannula""]",99,3,"[""Rycroft Cannula""]",1,1,False
+test,test17,11765,11531,11672,OVD Aspiration,,"[""Micromanipulator""]",76,5,"[""Micromanipulator""]",1,1,False
+test,test17,12337,12104,12244,Wound Hydratation,,"[""Rycroft Cannula""]",175,3,"[""Rycroft Cannula""]",1,1,False
+test,test17,12763,12530,12670,Idle,,"[""Micromanipulator""]",103,3,"[""Micromanipulator""]",1,1,False
+test,test17,13172,12939,13079,Suturing,,"[""Suture Needle""]",1766,5,"[""Suture Needle""]",1,1,False
+test,test17,13376,13143,13283,Suturing,,"[""Rycroft Cannula""]",158,3,"[""Rycroft Cannula""]",1,1,False
+test,test17,14030,13797,13937,Suturing,,"[""Lens Injector""]",114,4,"[""Lens Injector""]",1,1,False
+test,test18,835,602,742,Idle,,"[""Rycroft Cannula""]",143,3,"[""Rycroft Cannula""]",1,1,False
+test,test18,1168,935,1075,Incision,,"[""Secondary Knife""]",200,5,"[""Secondary Knife""]",1,1,False
+test,test18,1180,946,1086,Incision,,"[""Bonn Forceps""]",202,5,"[""Bonn Forceps""]",1,1,False
+test,test18,1933,1699,1840,Incision,,"[""Primary Knife""]",331,5,"[""Primary Knife""]",1,1,False
+test,test18,2237,2003,2143,Viscodilatation,,"[""Visc. Cannula""]",188,3,"[""Visc. Cannula""]",1,1,False
+test,test18,2505,2272,2412,Capsulorhexis,,"[""Cap. Cystotome""]",42,5,"[""Cap. Cystotome""]",1,1,False
+test,test18,3720,3486,3626,Capsulorhexis,,"[""Cap. Forceps""]",303,5,"[""Cap. Forceps""]",1,1,False
+test,test18,3936,3702,3842,Idle,,"[""Rycroft Cannula""]",249,5,"[""Rycroft Cannula""]",1,1,False
+test,test18,5903,5670,5810,Nucleus Breaking,Divide and Conquer,"[""Micromanipulator""]",63,5,"[""Micromanipulator""]",1,1,False
+test,test18,9809,9576,9716,Irrigation/Aspiration,,"[""I/A Handpiece""]",384,3,"[""I/A Handpiece""]",1,1,False
+test,test18,10574,10340,10481,Irrigation/Aspiration,,"[""Micromanipulator""]",58,3,"[""Micromanipulator""]",1,1,False
+test,test18,11683,11450,11590,Idle,,"[""Primary Knife""]",1644,3,"[""Primary Knife""]",1,1,False
+test,test18,14118,13884,14025,Viscodilatation,,"[""Visc. Cannula""]",65,4,"[""Visc. Cannula""]",1,1,False
+test,test18,16628,16395,16535,OVD Aspiration,,"[""I/A Handpiece""]",49,5,"[""I/A Handpiece""]",1,1,False
+test,test18,20715,20482,20622,Wound Hydratation,,"[""Rycroft Cannula""]",53,4,"[""Rycroft Cannula""]",1,1,False
+test,test20,520,287,427,Incision,,"[""Primary Knife""]",44,4,"[""Primary Knife""]",1,1,False
+test,test20,970,736,876,Idle,,"[""Ph. Handpiece""]",166,3,"[""Ph. Handpiece""]",1,1,False
+test,test20,1916,1682,1822,Capsulorhexis,,"[""Primary Knife""]",50,4,"[""Primary Knife""]",1,1,False
+test,test20,2085,1851,1991,Hydrodissetion,,"[""Hydro. Cannula""]",192,5,"[""Hydro. Cannula""]",1,1,False
+test,test20,2826,2593,2733,Nucleus Breaking,Divide and Conquer,"[""Ph. Handpiece""]",315,4,"[""Ph. Handpiece""]",1,1,False
+test,test20,3515,3282,3422,Incision,,"[""Primary Knife""]",268,3,"[""Primary Knife""]",1,1,False
+test,test20,3755,3521,3661,Nucleus Breaking,Divide and Conquer,"[""Bonn Forceps""]",82,5,"[""Bonn Forceps""]",1,1,False
+test,test20,3895,3661,3801,Nucleus Breaking,Divide and Conquer,"[""Rycroft Cannula""]",94,3,"[""Rycroft Cannula""]",1,1,False
+test,test20,8647,8414,8554,Irrigation/Aspiration,,"[""Hydro. Cannula""]",724,3,"[""Hydro. Cannula""]",1,1,False
+test,test20,8735,8501,8641,Irrigation/Aspiration,,"[""Cap. Forceps""]",98,3,"[""Cap. Forceps""]",1,1,False
+test,test20,8817,8583,8723,Irrigation/Aspiration,,"[""Micromanipulator""]",111,3,"[""Micromanipulator""]",1,1,False
+test,test20,11835,11602,11742,Viscodilatation,,"[""Visc. Cannula""]",50,4,"[""Visc. Cannula""]",1,1,False
+test,test20,12985,12752,12892,Preparing Implant,,"[""Primary Knife""]",654,3,"[""Primary Knife""]",1,1,False
+test,test20,12997,12763,12904,Preparing Implant,,"[""Ph. Handpiece""]",449,4,"[""Ph. Handpiece""]",1,1,False
+test,test20,13009,12775,12915,Preparing Implant,,"[""Bonn Forceps""]",159,4,"[""Bonn Forceps""]",1,1,False
+test,test20,13149,12915,13055,Implantation,,"[""Lens Injector""]",761,5,"[""Lens Injector""]",1,1,False
+test,test20,13552,13318,13458,Positioning,,"[""Micromanipulator""]",192,5,"[""Micromanipulator""]",1,1,False
+test,test20,13773,13540,13680,OVD Aspiration,,"[""I/A Handpiece""]",82,3,"[""I/A Handpiece""]",1,1,False
+test,test21,503,269,409,Incision,,"[""Primary Knife""]",58,5,"[""Primary Knife""]",1,1,False
+test,test21,765,532,672,Viscodilatation,,"[""Visc. Cannula""]",131,5,"[""Visc. Cannula""]",1,1,False
+test,test21,987,754,894,Capsulorhexis,,"[""Cap. Cystotome""]",61,5,"[""Cap. Cystotome""]",1,1,False
+test,test21,2050,1816,1956,Capsulorhexis,,"[""Cap. Cystotome""]",65,3,"[""Cap. Cystotome""]",1,1,False
+test,test21,2564,2330,2470,Nucleus Breaking,Stop and Chop,"[""Ph. Handpiece""]",164,4,"[""Ph. Handpiece""]",1,1,False
+test,test21,6195,5962,6102,Phacoemulsification,,"[""Rycroft Cannula""]",94,4,"[""Rycroft Cannula""]",1,1,False
+test,test21,7176,6942,7083,Irrigation/Aspiration,,"[""Micromanipulator""]",167,3,"[""Micromanipulator""]",1,1,False
+test,test21,9517,9284,9424,Preparing Implant,,"[""Primary Knife""]",355,3,"[""Primary Knife""]",1,1,False
+test,test21,9523,9290,9430,Preparing Implant,,"[""Lens Injector""]",1631,4,"[""Lens Injector""]",1,1,False
+test,test21,9535,9301,9441,Preparing Implant,,"[""Bonn Forceps""]",1522,4,"[""Bonn Forceps""]",1,1,False
+test,test21,10732,10498,10638,Implantation,,"[""Primary Knife""]",60,3,"[""Primary Knife""]",1,1,False
+test,test21,10848,10615,10755,Implantation,,"[""Micromanipulator""]",196,3,"[""Micromanipulator""]",1,1,False
+test,test21,11467,11234,11374,OVD Aspiration,,"[""I/A Handpiece""]",43,5,"[""I/A Handpiece""]",1,1,False
+test,test22,1028,795,935,Incision,,"[""Secondary Knife""]",117,3,"[""Secondary Knife""]",1,1,False
+test,test22,1034,800,940,Incision,,"[""I/A Handpiece""]",177,3,"[""I/A Handpiece""]",1,1,False
+test,test22,1046,812,952,Incision,,"[""Bonn Forceps""]",138,5,"[""Bonn Forceps""]",1,1,False
+test,test22,1051,818,958,Incision,,"[""Primary Knife""]",180,4,"[""Primary Knife""]",1,1,False
+test,test22,1267,1034,1174,Viscodilatation,,"[""Visc. Cannula""]",98,4,"[""Visc. Cannula""]",1,1,False
+test,test22,2581,2348,2488,Hydrodissetion,,"[""Hydro. Cannula""]",263,4,"[""Hydro. Cannula""]",1,1,False
+test,test22,5144,4911,5051,Irrigation/Aspiration,,"[""I/A Handpiece""]",341,5,"[""I/A Handpiece""]",1,1,False
+test,test22,6680,6446,6586,Viscodilatation,,"[""Visc. Cannula""]",907,5,"[""Visc. Cannula""]",1,1,False
+test,test22,6966,6732,6872,Idle,,"[""Micromanipulator""]",46,3,"[""Micromanipulator""]",1,1,False
+test,test22,8396,8163,8303,Implantation,,"[""Primary Knife""]",1235,3,"[""Primary Knife""]",1,1,False
+test,test22,9587,9354,9494,OVD Aspiration,,"[""Micromanipulator""]",47,4,"[""Micromanipulator""]",1,1,False
+test,test22,13207,12974,13114,Suturing,,"[""Suture Needle""]",2262,4,"[""Suture Needle""]",1,1,False
+test,test22,14019,13785,13925,Suturing,,"[""Secondary Knife""]",118,5,"[""Secondary Knife""]",1,1,False
+test,test23,1110,876,1016,Viscodilatation,,"[""Visc. Cannula""]",190,5,"[""Visc. Cannula""]",1,1,False
+test,test23,1343,1110,1250,Capsulorhexis,,"[""Primary Knife""]",56,3,"[""Primary Knife""]",1,1,False
+test,test23,3212,2978,3118,Capsulorhexis,,"[""Cap. Forceps""]",119,5,"[""Cap. Forceps""]",1,1,False
+test,test23,3264,3031,3171,Capsulorhexis,,"[""I/A Handpiece""]",178,4,"[""I/A Handpiece""]",1,1,False
+test,test23,3988,3755,3895,Capsulorhexis,,"[""Ph. Handpiece""]",107,3,"[""Ph. Handpiece""]",1,1,False
+test,test23,4146,3912,4052,Capsulorhexis,,"[""Cap. Forceps""]",125,5,"[""Cap. Forceps""]",1,1,False
+test,test23,4555,4321,4461,Viscodilatation,,"[""Hydro. Cannula""]",58,5,"[""Hydro. Cannula""]",1,1,False
+test,test23,5004,4771,4911,Nucleus Breaking,Divide and Conquer,"[""Ph. Handpiece""]",122,4,"[""Ph. Handpiece""]",1,1,False
+test,test23,5302,5068,5208,Nucleus Breaking,Divide and Conquer,"[""Micromanipulator""]",47,4,"[""Micromanipulator""]",1,1,False
+test,test23,5314,5080,5220,Nucleus Breaking,Divide and Conquer,"[""Bonn Forceps""]",268,5,"[""Bonn Forceps""]",1,1,False
+test,test23,11315,11082,11222,Implantation,,"[""Lens Injector""]",1054,5,"[""Lens Injector""]",1,1,False
+test,test23,11648,11415,11555,Positioning,,"[""Micromanipulator""]",442,3,"[""Micromanipulator""]",1,1,False
+test,test23,12098,11864,12004,OVD Aspiration,,"[""I/A Handpiece""]",192,5,"[""I/A Handpiece""]",1,1,False
+test,test23,13120,12886,13026,OVD Aspiration,,"[""Micromanipulator""]",110,3,"[""Micromanipulator""]",1,1,False
+test,test23,14229,13995,14135,Wound Hydratation,,"[""Rycroft Cannula""]",42,4,"[""Rycroft Cannula""]",1,1,False
+test,test23,15216,14982,15122,Wound Hydratation,,"[""Rycroft Cannula""]",46,5,"[""Rycroft Cannula""]",1,1,False
+test,test24,415,181,322,Incision,,"[""Primary Knife""]",71,5,"[""Primary Knife""]",1,1,False
+test,test24,637,403,543,Viscodilatation,,"[""Visc. Cannula""]",109,5,"[""Visc. Cannula""]",1,1,False
+test,test24,812,579,719,Capsulorhexis,,"[""Bonn Forceps""]",51,4,"[""Bonn Forceps""]",1,1,False
+test,test24,2616,2383,2523,Nucleus Breaking,Stop and Chop,"[""I/A Handpiece""]",448,3,"[""I/A Handpiece""]",1,1,False
+test,test24,5057,4823,4963,Irrigation/Aspiration,,"[""I/A Handpiece""]",63,5,"[""I/A Handpiece""]",1,1,False
+test,test24,11602,11368,11508,Preparing Implant,,"[""Lens Injector""]",209,3,"[""Lens Injector""]",1,1,False
+test,test24,13283,13049,13190,OVD Aspiration,,"[""I/A Handpiece""]",405,3,"[""I/A Handpiece""]",1,1,False
+test,test24,14398,14165,14305,Idle,,"[""Rycroft Cannula""]",186,5,"[""Rycroft Cannula""]",1,1,False
+test,test24,15122,14889,15029,Wound Hydratation,,"[""Rycroft Cannula""]",42,5,"[""Rycroft Cannula""]",1,1,False
+test,test24,15420,15186,15326,Idle,,"[""I/A Handpiece""]",184,5,"[""I/A Handpiece""]",1,1,False
+test,test25,363,129,269,Incision,,"[""Secondary Knife""]",62,5,"[""Secondary Knife""]",1,1,False
+test,test25,637,403,544,Incision,,"[""Primary Knife""]",109,5,"[""Primary Knife""]",1,1,False
+test,test25,707,474,614,Incision,,"[""Bonn Forceps""]",121,3,"[""Bonn Forceps""]",1,1,False
+test,test25,1367,1134,1274,Capsulorhexis,,"[""Cap. Cystotome""]",85,5,"[""Cap. Cystotome""]",1,1,False
+test,test25,2471,2237,2378,Idle,,"[""Hydro. Cannula""]",279,5,"[""Hydro. Cannula""]",1,1,False
+test,test25,3972,3738,3879,Nucleus Breaking,Stop and Chop,"[""Micromanipulator""]",45,5,"[""Micromanipulator""]",1,1,False
+test,test25,4357,4124,4264,Idle,,"[""Rycroft Cannula""]",602,3,"[""Rycroft Cannula""]",1,1,False
+test,test25,7716,7482,7622,Irrigation/Aspiration,,"[""I/A Handpiece""]",100,5,"[""I/A Handpiece""]",1,1,False
+test,test25,8533,8300,8440,Irrigation/Aspiration,,"[""Rycroft Cannula""]",136,3,"[""Rycroft Cannula""]",1,1,False
+test,test25,9193,8960,9100,Irrigation/Aspiration,,"[""Visc. Cannula""]",85,3,"[""Visc. Cannula""]",1,1,False
+test,test25,10367,10134,10274,Viscodilatation,,"[""Visc. Cannula""]",195,5,"[""Visc. Cannula""]",1,1,False
+test,test25,11261,11027,11167,Preparing Implant,,"[""Lens Injector""]",1928,5,"[""Lens Injector""]",1,1,False
+test,test25,11395,11161,11302,Preparing Implant,,"[""Suture Needle""]",665,5,"[""Suture Needle""]",1,1,False
+test,test25,11950,11716,11856,Implantation,,"[""Lens Injector""]",66,5,"[""Lens Injector""]",1,1,False
+test,test25,11979,11745,11886,Implantation,,"[""I/A Handpiece""]",101,4,"[""I/A Handpiece""]",1,1,False
+test,test25,12183,11950,12090,Implantation,,"[""Micromanipulator""]",372,4,"[""Micromanipulator""]",1,1,False
+test,test25,12470,12236,12376,Positioning,,"[""Micromanipulator""]",43,5,"[""Micromanipulator""]",1,1,False
+test,test25,12838,12604,12744,OVD Aspiration,,"[""I/A Handpiece""]",62,5,"[""I/A Handpiece""]",1,1,False
+test,test25,14023,13790,13930,Idle,,"[""Rycroft Cannula""]",50,3,"[""Rycroft Cannula""]",1,1,False
+test,test25,15349,15115,15256,Wound Hydratation,,"[""Rycroft Cannula""]",70,5,"[""Rycroft Cannula""]",1,1,False
+test,test25,15775,15542,15682,OVD Aspiration,,"[""I/A Handpiece""]",70,5,"[""I/A Handpiece""]",1,1,False
+test,test25,16914,16681,16821,Idle,,"[""Rycroft Cannula""]",234,3,"[""Rycroft Cannula""]",1,1,False
