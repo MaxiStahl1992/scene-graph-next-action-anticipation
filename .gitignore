@@ -1,0 +1,15 @@
+# Data are distributed separately by CAT-SG and are not committed here.
+/data/
+
+# uv / Python
+/.venv/
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+*-checkpoint.ipynb
+
+# Local tooling and operating-system files
+.pytest_cache/
+.DS_Store
