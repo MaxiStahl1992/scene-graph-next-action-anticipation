@@ -21,12 +21,12 @@ observes five seconds of history, ending three seconds before the event. Onsets 
 in at least three of the next five annotations. This prevents every target from appearing in
 the input while retaining coordinated multi-instrument events.
 
-![From a CAT-SG annotation to the prediction target](figures/01_annotation_to_task.png)
+![Scene-graph progression for one anticipation event](figures/01_annotation_to_task.png)
 
-*A real training annotation rendered without source video pixels. The left panel visualises
-the supplied bounding-box pseudolabels, the centre shows the relation topology, and the
-right defines the anticipation event. Geometry is shown for interpretation only; the models
-use entity identities and relation edges.*
+*A real training event reconstructed from JSON annotations. The first three panels show
+scene-graph progression during the five-second observation window; after a three-second
+unseen gap, the target instrument appears at onset. Node positions are held fixed across
+panels for readability and do not encode image geometry.*
 
 ## Study design
 
