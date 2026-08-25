@@ -1,13 +1,14 @@
-# Do scene-graph relations help anticipate the next surgical instrument?
+# Relational representations for next-instrument anticipation
 
 Surgical assistance systems must anticipate an instrument before it is needed, not merely
-recognise it once it appears. This small study asks whether the relations in a dynamic
-surgical scene graph add predictive information beyond the recent history of visible
-entities.
+recognise it once it appears. This controlled public-data study examines how a dynamic
+surgical scene-graph model compares with sequence models that use recent entity history.
 
-The work is inspired by MITI's instrument-anticipation research and uses the public CAT-SG
-annotations. It is a focused mechanism study, not a reproduction of MITI's in-house results
-and not evidence for clinical deployment.
+The project is motivated by MITI's work on instrument anticipation, multimodal graph
+representations and surgeon-specific adaptation. It uses the public CAT-SG annotations to
+explore one deliberately narrow representation question. It is not a reproduction or
+assessment of MITI's in-house data, models or robotic system, and it is not evidence for
+clinical deployment.
 
 ## Question
 
@@ -52,19 +53,48 @@ baseline is fitted once).
 | Markov count baseline | 0.152 | 0.409 | 0.357 |
 | Entity GRU | 0.215 | 0.416 | 0.385 |
 | No-edge control | 0.222 | 0.446 | 0.401 |
-| Shuffled-edge control | **0.241** | 0.459 | **0.419** |
-| Temporal RGCN | 0.223 | **0.465** | 0.409 |
+| Shuffled-edge control | 0.241 | 0.459 | 0.419 |
+| Temporal RGCN | 0.223 | 0.465 | 0.409 |
 
-The temporal RGCN improved over the entity GRU by 0.049 Recall@3 and 0.023 mAP, but paired
-hierarchical 95% bootstrap intervals over test procedures and training seeds crossed zero
-(-0.008 to 0.115 and -0.013 to 0.062, respectively). The no-edge model recovered most of
-the gain, while shuffled edges slightly outperformed the correct graph on mAP. The evidence
-therefore does **not** support the claim that correct relational topology adds predictive
-information in this setup. It does suggest that richer entity processing or relation-activity
-statistics deserve more targeted investigation. The singleton-only sensitivity analysis
-gave the same ordering.
+The temporal RGCN produced higher point estimates than the entity GRU by 0.049 Recall@3 and
+0.023 mAP. Paired hierarchical 95% bootstrap intervals over test procedures and training
+seeds included zero (-0.008 to 0.115 and -0.013 to 0.062, respectively), while the no-edge
+and shuffled-edge controls remained close to the full model. Within this setup, the
+topology-specific contribution therefore could not be isolated. The singleton-only
+sensitivity analysis produced the same ordering.
+
+This conclusion is intentionally local to the dataset, event definition, horizon and model
+used here. CAT-SG supplies idealised annotations from a highly standardised procedure; it
+does not provide the multimodal real-time signals, surgeon identity or clinical context for
+which richer graph representations are designed.
 
 ![Primary model comparison](figures/02_primary_model_comparison.png)
+
+*Grey circles are individual runs; teal markers are condition means. The deterministic
+Markov baseline is fitted once.*
+
+Machine-readable outputs: [model comparison](results/02_model_comparison.csv) and
+[bootstrap intervals](results/02_bootstrap_intervals.csv).
+
+## Relation to MITI and follow-up question
+
+Scene graphs are a natural representation for combining heterogeneous entities, actions,
+spatial relationships and data modalities in an operating room. The MITI studies cited
+below pursue that substantially richer setting. This experiment instead isolates a small
+part of the problem with public annotations and demonstrates a controlled comparison using
+no-edge and shuffled-edge conditions.
+
+The most informative follow-up is not a broader claim for or against graphs, but a more
+targeted question:
+
+> Under which surgical conditions and with which modalities do structured relational
+> representations provide information complementary to procedural history and
+> surgeon-specific preferences?
+
+One hypothesis raised by the results is that relational context may be most informative at
+locally ambiguous transitions, while routine transitions are already captured by sequence
+priors. Testing that hypothesis would require richer data and clinical context and is beyond
+the scope of this repository.
 
 ## Scope
 
@@ -81,8 +111,8 @@ are valuable extensions, but not part of the primary experiment:
 
 | Notebook | Purpose |
 |---|---|
-| `01_task_definition_and_dataset_audit.ipynb` | Audit CAT-SG, define anticipation events using training data only, and freeze the evaluation cohort. |
-| `02_relational_model_comparison.ipynb` | Train the baselines and graph model, run both topology controls, and report the predefined comparison with uncertainty. |
+| [Task definition and dataset audit](notebooks/01_task_definition_and_dataset_audit.ipynb) | Audit CAT-SG, define anticipation events using training data only, and freeze the evaluation cohort. |
+| [Relational model comparison](notebooks/02_relational_model_comparison.ipynb) | Train the baselines and graph model, run both topology controls, and report the predefined comparison with uncertainty. |
 
 The notebooks are written as concise, executable narratives. Findings are added only after
 the corresponding experiment has been run.
@@ -112,6 +142,13 @@ uv sync --locked
 uv run jupyter lab notebooks/
 ```
 
+To reproduce the committed outputs non-interactively:
+
+```bash
+uv run jupyter nbconvert --to notebook --execute --inplace notebooks/01_task_definition_and_dataset_audit.ipynb
+uv run jupyter nbconvert --to notebook --execute --inplace notebooks/02_relational_model_comparison.ipynb
+```
+
 The repository includes the executed notebooks, figures and compact result files, but not
 data or trained model weights.
 
@@ -124,6 +161,7 @@ data or trained model weights.
 ├── results/       # compact machine-readable results
 ├── data/          # local CAT-SG annotations; gitignored
 ├── pyproject.toml
+├── uv.lock
 └── README.md
 ```
 

@@ -153,5 +153,5 @@
       "repetitions": 2000
     }
   ],
-  "relations_supported": false
+  "topology_specific_gain_observed": false
 }

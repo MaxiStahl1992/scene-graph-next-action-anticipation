@@ -52,6 +52,6 @@
     73
   ],
   "primary_comparison": "temporal GNN versus entity GRU",
-  "falsification_rule": "A relational-topology claim requires gains in Recall@3 and sample-averaged mean average precision over the entity GRU, no-edge control and shuffled-edge control.",
+  "interpretation_rule": "A topology-specific interpretation requires gains in Recall@3 and sample-averaged mean average precision over the entity GRU, no-edge control and shuffled-edge control.",
   "sensitivity_analysis": "evaluate the fitted primary models on singleton-only test event sets"
 }

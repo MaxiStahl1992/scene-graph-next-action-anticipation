@@ -1,7 +1,7 @@
 [project]
 name = "scene-graph-next-action-anticipation"
 version = "0.1.0"
-description = "A small study of whether scene-graph relations improve surgical instrument anticipation."
+description = "A controlled public-data study of relational representations for surgical instrument anticipation."
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
