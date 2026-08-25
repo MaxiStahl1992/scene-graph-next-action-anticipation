@@ -21,6 +21,13 @@ observes five seconds of history, ending three seconds before the event. Onsets 
 in at least three of the next five annotations. This prevents every target from appearing in
 the input while retaining coordinated multi-instrument events.
 
+![From a CAT-SG annotation to the prediction target](figures/01_annotation_to_task.png)
+
+*A real training annotation rendered without source video pixels. The left panel visualises
+the supplied bounding-box pseudolabels, the centre shows the relation topology, and the
+right defines the anticipation event. Geometry is shown for interpretation only; the models
+use entity identities and relation edges.*
+
 ## Study design
 
 All conditions use the same event definitions, procedure-level splits, training budget and
@@ -123,8 +130,13 @@ the corresponding experiment has been run.
 semantic relations, positions, sizes, surgical steps and technique labels for 50 cataract
 procedures. Its annotations are released under CC BY-NC 4.0.
 
-The dataset is not redistributed by this repository. Clone or copy CAT-SG's downloaded files
-to:
+CAT-SG distributes the scene-graph annotations as JSON files. Each file corresponds to a
+CATARACTS video and each record to an annotated frame; the matching videos are accessed
+separately under their own conditions. This project deliberately uses only the annotations,
+which is why no surgical images appear in `data/`.
+
+The dataset is not redistributed by this repository. Clone or copy CAT-SG's downloaded
+annotation files to:
 
 ```text
 data/annotations/all/
