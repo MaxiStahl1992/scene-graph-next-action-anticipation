@@ -93,6 +93,12 @@ below pursue that substantially richer setting. This experiment instead isolates
 part of the problem with public annotations and demonstrates a controlled comparison using
 no-edge and shuffled-edge conditions.
 
+Recent MITI work on esophageal motility classification provides a complementary example:
+HRIM sensor nodes are linked by anatomical adjacency, while impedance measurements are
+encoded on the edges. Its promising graph-based results motivate the same representation
+question studied here: when do task-specific relations carry information that is not
+captured as effectively by less structured inputs?
+
 The most informative follow-up is not a broader claim for or against graphs, but a more
 targeted question:
 
@@ -191,3 +197,5 @@ data or trained model weights.
 - Wagner et al. *Modeling surgeon-specific instrument usage profiles to improve instrument
   anticipation.* Proc AUTOMED, 2026.
   [DOI](https://doi.org/10.18416/AUTOMED.2026.2482)
+- Geiger et al. *Multimodal Graph-based Classification of Esophageal Motility Disorders.*
+  arXiv, 2026. [DOI](https://doi.org/10.48550/arXiv.2605.13623)
