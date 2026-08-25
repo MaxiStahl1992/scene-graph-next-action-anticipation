@@ -26,7 +26,9 @@ the input while retaining coordinated multi-instrument events.
 *A real training event reconstructed from JSON annotations. The first three panels show
 scene-graph progression during the five-second observation window; after a three-second
 unseen gap, the target instrument appears at onset. Node positions are held fixed across
-panels for readability and do not encode image geometry.*
+panels for readability and do not encode image geometry. Teal nodes are non-target context,
+orange nodes are predictable instruments, and purple arrows are labelled interactions;
+spatial proximity edges are omitted for clarity.*
 
 ## Study design
 
